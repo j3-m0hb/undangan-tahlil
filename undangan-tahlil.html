@@ -1,0 +1,1297 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Tahlil & Doa Bersama 40 Hari — Almarhum Haryono Bin Wardi Supardi</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Cormorant Garamond, Plus Jakarta Sans, Amiri -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        pearlBg: '#FAF8F5',
+                        sageSoft: '#E8F3EE',
+                        champagneSoft: '#F5EFE4',
+                        emeraldDeep: '#0F5132',
+                        emeraldRich: '#146C43',
+                        emeraldMuted: '#2D6A4F',
+                        goldPrimary: '#B8860B',
+                        goldMetallic: '#D4AF37',
+                        goldLight: '#F3E5AB',
+                        slateDark: '#1E293B',
+                        slateMuted: '#475569'
+                    },
+                    fontFamily: {
+                        serifRegal: ['"Cormorant Garamond"', 'serif'],
+                        arabic: ['"Amiri"', 'serif'],
+                        sansModern: ['"Plus Jakarta Sans"', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        :root {
+            --bg-ivory: #FAF8F5;
+            --emerald-primary: #0F5132;
+            --gold-primary: #B8860B;
+            --gold-metallic: #D4AF37;
+        }
+
+        body {
+            background: linear-gradient(135deg, #FFFDF9 0%, #F4EFE6 42%, #E4F2EC 100%);
+            background-attachment: fixed;
+            color: #1E293B;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            overflow-x: hidden;
+        }
+
+        /* Subtle Bright Islamic Geometric Girih Pattern Overlay */
+        .bg-girih-bright {
+            background-image: 
+                radial-gradient(circle at 15% 15%, rgba(212, 175, 55, 0.14) 0%, transparent 45%),
+                radial-gradient(circle at 85% 80%, rgba(15, 81, 50, 0.10) 0%, transparent 50%),
+                url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23B8860B' stroke-width='0.65' stroke-opacity='0.11'%3E%3Cpath d='M40 0L52 12L68 12L68 28L80 40L68 52L68 68L52 68L40 80L28 68L12 68L12 52L0 40L12 28L12 12L28 12Z'/%3E%3Cpath d='M40 12L52 28L68 40L52 52L40 68L28 52L12 40L28 28Z'/%3E%3Ccircle cx='40' cy='40' r='8' stroke='%230F5132' stroke-opacity='0.08'/%3E%3C/g%3E%3C/svg%3E");
+        }
+
+        /* Bright Glassmorphism Luxury Cards */
+        .luxury-card {
+            background: linear-gradient(155deg, rgba(255, 255, 255, 0.88) 0%, rgba(251, 249, 244, 0.80) 55%, rgba(235, 245, 240, 0.85) 100%);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(184, 134, 11, 0.28);
+            box-shadow: 
+                0 20px 45px -12px rgba(15, 81, 50, 0.09),
+                0 4px 16px rgba(184, 134, 11, 0.07),
+                inset 0 1px 0 rgba(255, 255, 255, 0.9);
+            position: relative;
+        }
+
+        .luxury-card-hover {
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .luxury-card-hover:hover {
+            border-color: rgba(184, 134, 11, 0.55);
+            box-shadow: 0 24px 50px -12px rgba(15, 81, 50, 0.14), 0 8px 25px rgba(184, 134, 11, 0.14);
+            transform: translateY(-3px);
+        }
+
+        /* Emerald & Metallic Gold Text Gradient for Bright Background */
+        .text-emerald-gold-gradient {
+            background: linear-gradient(135deg, #0A3822 0%, #146C43 35%, #9A6F05 70%, #0F5132 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 200% auto;
+            animation: textShine 7s ease-in-out infinite;
+        }
+
+        .text-gold-rich {
+            background: linear-gradient(135deg, #8B6508 0%, #C59B27 50%, #7A5805 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        @keyframes textShine {
+            0%, 100% { background-position: 0% center; }
+            50% { background-position: 100% center; }
+        }
+
+        /* Primary Emerald & Gold Shimmer Button */
+        .btn-emerald-gold {
+            background: linear-gradient(135deg, #0F5132 0%, #198754 50%, #0D442A 100%);
+            background-size: 200% auto;
+            color: #FFFDF9;
+            font-weight: 600;
+            border: 1px solid rgba(212, 175, 55, 0.55);
+            box-shadow: 0 10px 25px -5px rgba(15, 81, 50, 0.35), inset 0 1px 1px rgba(255, 255, 255, 0.3);
+            transition: all 0.35s ease;
+        }
+        .btn-emerald-gold:hover {
+            background-position: right center;
+            box-shadow: 0 14px 30px -5px rgba(15, 81, 50, 0.5), 0 0 15px rgba(212, 175, 55, 0.3);
+            transform: translateY(-2px);
+        }
+        .btn-emerald-gold:active {
+            transform: translateY(0);
+        }
+
+        /* Secondary Gold Soft Button */
+        .btn-gold-outline {
+            background: linear-gradient(135deg, #FFFDF9 0%, #F7EFE0 100%);
+            color: #0F5132;
+            border: 1px solid rgba(184, 134, 11, 0.45);
+            box-shadow: 0 4px 12px rgba(184, 134, 11, 0.1);
+            transition: all 0.3s ease;
+        }
+        .btn-gold-outline:hover {
+            background: linear-gradient(135deg, #F7EFE0 0%, #EFE1C6 100%);
+            border-color: #B8860B;
+            transform: translateY(-1px);
+        }
+
+        /* Pendulum Lantern Sway Animations */
+        @keyframes swaySlow {
+            0%, 100% { transform: rotate(-3.5deg); }
+            50% { transform: rotate(3.5deg); }
+        }
+        @keyframes swayMedium {
+            0%, 100% { transform: rotate(3deg); }
+            50% { transform: rotate(-3deg); }
+        }
+        @keyframes lanternGlow {
+            0%, 100% { opacity: 0.65; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.16); }
+        }
+
+        .lantern-left {
+            transform-origin: top center;
+            animation: swaySlow 5.8s ease-in-out infinite;
+        }
+        .lantern-right {
+            transform-origin: top center;
+            animation: swayMedium 6.6s ease-in-out infinite;
+        }
+        .lantern-inner-glow {
+            animation: lanternGlow 3.2s ease-in-out infinite;
+        }
+
+        /* Rotating Geometric Frame */
+        @keyframes spinSlow {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        @keyframes spinReverseSlow {
+            from { transform: rotate(360deg); }
+            to { transform: rotate(0deg); }
+        }
+        .animate-spin-slow {
+            animation: spinSlow 45s linear infinite;
+        }
+        .animate-spin-reverse-slow {
+            animation: spinReverseSlow 60s linear infinite;
+        }
+
+        /* Scroll Reveal Animations */
+        .reveal-item {
+            opacity: 0;
+            transform: translateY(28px);
+            transition: opacity 0.85s cubic-bezier(0.16, 1, 0.3, 1), transform 0.85s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .reveal-item.revealed {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Cover Gatefold Transition */
+        #cover-gatefold {
+            background: linear-gradient(145deg, #FFFDF9 0%, #F5EFE4 48%, #E4F2EC 100%);
+            transition: opacity 0.95s cubic-bezier(0.65, 0, 0.35, 1), transform 1.1s cubic-bezier(0.65, 0, 0.35, 1), visibility 1.1s;
+        }
+        #cover-gatefold.gate-opened {
+            opacity: 0;
+            transform: scale(1.06) translateY(-100%);
+            visibility: hidden;
+            pointer-events: none;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #FAF8F5;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: rgba(184, 134, 11, 0.4);
+            border-radius: 9999px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(15, 81, 50, 0.7);
+        }
+
+        .arabic-text {
+            font-family: 'Amiri Quran', 'Amiri', serif;
+            line-height: 2.2;
+            direction: rtl;
+        }
+
+        html { scroll-behavior: smooth; scroll-padding-top: 72px; }
+        section[id], .prayer-panel { scroll-margin-top: 76px; }
+        #sticky-nav { position: sticky; top: 0; z-index: 35; background: rgba(250,248,245,.92); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid rgba(184,134,11,.28); }
+        #sticky-nav .nav-scroll { display:flex; gap:.5rem; overflow-x:auto; padding:.65rem 1rem; max-width:42rem; margin:0 auto; scrollbar-width:none; }
+        #sticky-nav .nav-scroll::-webkit-scrollbar { display:none; }
+        #sticky-nav a { flex:0 0 auto; padding:.45rem .95rem; border-radius:9999px; font-size:.75rem; font-weight:600; color:#0F5132; border:1px solid rgba(184,134,11,.4); background:#FFFDF9; white-space:nowrap; transition:all .25s; }
+        #sticky-nav a:hover, #sticky-nav a.active { background:#0F5132; color:#fff; border-color:#0F5132; }
+        .arabic-text { font-size: clamp(1.5rem, 5.5vw, 2rem); }
+
+        .reader-tabs { display:flex; gap:.4rem; padding:.35rem; border-radius:1rem; background:rgba(232,243,238,.9); border:1px solid rgba(184,134,11,.3); margin-bottom:1rem; position:sticky; top:60px; z-index:5; }
+        .reader-tab { flex:1; padding:.6rem .4rem; border-radius:.75rem; font-size:.8rem; font-weight:600; color:rgba(15,81,50,.8); cursor:pointer; transition:all .25s; }
+        .reader-tab.active { background:#0F5132; color:#fff; box-shadow:0 2px 8px rgba(15,81,50,.3); }
+        .reader-panel { max-height:70vh; overflow-y:auto; overscroll-behavior:contain; padding-right:.25rem; scroll-behavior:smooth; }
+        .reader-panel:focus { outline:none; }
+        .reader-panel::-webkit-scrollbar { width:5px; }
+        .rd-group { font-family:'Cormorant Garamond',serif; font-weight:700; font-size:1.25rem; color:#0F5132; text-align:center; margin:1.5rem 0 .75rem; }
+        .rd-group:first-child { margin-top:.25rem; }
+        .rd-card { background:rgba(255,255,255,.92); border:1px solid rgba(184,134,11,.25); border-radius:1rem; padding:1rem 1.1rem; margin-bottom:.8rem; }
+        .rd-label { display:inline-block; font-size:.68rem; letter-spacing:.14em; text-transform:uppercase; font-weight:700; color:#B8860B; margin-bottom:.4rem; }
+        .rd-ar { color:#0F5132; text-align:right; line-height:2.3; margin:.2rem 0 .6rem; }
+        .rd-id { font-size:.85rem; line-height:1.65; color:#475569; border-top:1px solid rgba(184,134,11,.18); padding-top:.55rem; }
+        .rd-note { font-size:.7rem; color:#B8860B; font-style:italic; margin-top:.4rem; }
+        .rd-num { display:inline-flex; align-items:center; justify-content:center; min-width:1.8rem; height:1.8rem; padding:0 .4rem; border-radius:9999px; background:#0F5132; color:#F3E5AB; font-size:.72rem; font-weight:700; margin-bottom:.4rem; }
+        .rd-bsm { text-align:center; color:#B8860B; margin:.25rem 0 1rem; }
+        .rd-src { text-align:center; font-size:.7rem; color:#64748B; font-style:italic; margin:.2rem 0 1rem; }
+    </style>
+</head>
+<body class="bg-girih-bright min-h-screen relative selection:bg-emeraldDeep selection:text-white">
+
+    <!-- REUSABLE SVG DEFINITIONS FOR BESPOKE ISLAMIC ORNAMENTS (BRIGHT LUXURY THEME) -->
+    <svg width="0" height="0" class="hidden">
+        <defs>
+            <!-- Intricate Corner Arabesque Filigree -->
+            <g id="corner-ornament">
+                <path d="M2 2 L42 2 C28 6 18 14 14 28 C10 14 6 8 2 2 Z" fill="currentColor" opacity="0.22"/>
+                <path d="M2 2 L56 2 M2 2 L2 56" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M6 6 L40 6 C24 10 10 24 6 40 Z" fill="none" stroke="currentColor" stroke-width="1"/>
+                <path d="M14 6 C14 20 20 26 34 26 C20 26 14 32 14 46 C14 32 8 26 -6 26" fill="none" stroke="currentColor" stroke-width="0.9" opacity="0.75"/>
+                <circle cx="10" cy="10" r="2" fill="#0F5132"/>
+                <circle cx="26" cy="6" r="1.4" fill="currentColor"/>
+                <circle cx="6" cy="26" r="1.4" fill="currentColor"/>
+                <path d="M19 19 L25 15 L23 23 L15 25 Z" fill="#0F5132" opacity="0.5"/>
+            </g>
+
+            <!-- Section Divider Arabesque -->
+            <g id="section-divider">
+                <path d="M0 15 L110 15" stroke="url(#goldGradBright)" stroke-width="1.2"/>
+                <path d="M190 15 L300 15" stroke="url(#goldGradBright)" stroke-width="1.2"/>
+                <path d="M150 3 L162 15 L150 27 L138 15 Z" fill="none" stroke="#B8860B" stroke-width="1.4"/>
+                <path d="M150 7 L158 15 L150 23 L142 15 Z" fill="#0F5132" opacity="0.2"/>
+                <circle cx="150" cy="15" r="2.5" fill="#0F5132"/>
+                <circle cx="126" cy="15" r="2" fill="#B8860B"/>
+                <circle cx="174" cy="15" r="2" fill="#B8860B"/>
+                <path d="M118 15 Q126 8 134 15 Q126 22 118 15 Z" fill="none" stroke="#B8860B" stroke-width="1"/>
+                <path d="M166 15 Q174 8 182 15 Q174 22 166 15 Z" fill="none" stroke="#B8860B" stroke-width="1"/>
+            </g>
+
+            <!-- Hanging Lantern (Fanoos) Tailored for Bright Theme -->
+            <g id="fanoos-lantern">
+                <!-- Chain -->
+                <line x1="40" y1="0" x2="40" y2="55" stroke="#B8860B" stroke-width="1.6" stroke-dasharray="4 2"/>
+                <circle cx="40" cy="28" r="2.8" fill="#0F5132" stroke="#D4AF37" stroke-width="1"/>
+                <!-- Top Ring & Emerald Dome -->
+                <circle cx="40" cy="58" r="4" fill="none" stroke="#B8860B" stroke-width="1.6"/>
+                <path d="M28 72 C28 62 40 58 40 58 C40 58 52 62 52 72 Z" fill="#0F5132" stroke="#D4AF37" stroke-width="1.5"/>
+                <path d="M22 72 L58 72 L54 78 L26 78 Z" fill="#D4AF37"/>
+                <!-- Main Lantern Glass Body -->
+                <path d="M26 78 L18 102 L26 134 L54 134 L62 102 L54 78 Z" fill="rgba(255, 248, 220, 0.72)" stroke="#B8860B" stroke-width="1.6"/>
+                <!-- Inner Warm Glow -->
+                <circle cx="40" cy="105" r="18" fill="url(#lanternRadialBright)" class="lantern-inner-glow"/>
+                <!-- Intricate Lattice Inside Lantern -->
+                <path d="M33 78 L29 102 L33 134 M47 78 L51 102 L47 134" stroke="#B8860B" stroke-width="0.9" fill="none" opacity="0.75"/>
+                <path d="M18 102 L62 102" stroke="#B8860B" stroke-width="0.9" opacity="0.6"/>
+                <path d="M40 84 L48 102 L40 120 L32 102 Z" fill="rgba(15, 81, 50, 0.14)" stroke="#0F5132" stroke-width="1"/>
+                <!-- Base & Tassel -->
+                <path d="M24 134 L56 134 L50 142 L30 142 Z" fill="#D4AF37"/>
+                <path d="M35 142 C35 149 40 153 40 153 C40 153 45 149 45 142 Z" fill="#0F5132" stroke="#D4AF37" stroke-width="1.3"/>
+                <line x1="40" y1="153" x2="40" y2="165" stroke="#B8860B" stroke-width="1.5"/>
+                <circle cx="40" cy="166" r="2.2" fill="#0F5132"/>
+            </g>
+
+            <linearGradient id="goldGradBright" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#B8860B" stop-opacity="0"/>
+                <stop offset="50%" stop-color="#B8860B" stop-opacity="0.85"/>
+                <stop offset="100%" stop-color="#B8860B" stop-opacity="0"/>
+            </linearGradient>
+
+            <radialGradient id="lanternRadialBright" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#FFFBEB" stop-opacity="1"/>
+                <stop offset="45%" stop-color="#F59E0B" stop-opacity="0.55"/>
+                <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+            </radialGradient>
+        </defs>
+    </svg>
+
+    <!-- FLOATING GOLDEN & EMERALD LIGHT PARTICLES CANVAS -->
+    <canvas id="particle-canvas" class="fixed inset-0 pointer-events-none z-10"></canvas>
+
+    <!-- AMBIENT HANGING GOLDEN LANTERNS (TOP LEFT & RIGHT) -->
+    <div class="fixed top-0 left-2 sm:left-8 z-20 pointer-events-none flex space-x-2">
+        <svg width="75" height="175" viewBox="0 0 80 175" class="lantern-left drop-shadow-[0_8px_16px_rgba(184,134,11,0.22)]">
+            <use href="#fanoos-lantern"></use>
+        </svg>
+        <svg width="55" height="130" viewBox="0 0 80 175" class="lantern-right hidden sm:block -mt-4 opacity-85">
+            <use href="#fanoos-lantern"></use>
+        </svg>
+    </div>
+    <div class="fixed top-0 right-2 sm:right-8 z-20 pointer-events-none flex space-x-2">
+        <svg width="55" height="130" viewBox="0 0 80 175" class="lantern-left hidden sm:block -mt-4 opacity-85">
+            <use href="#fanoos-lantern"></use>
+        </svg>
+        <svg width="75" height="175" viewBox="0 0 80 175" class="lantern-right drop-shadow-[0_8px_16px_rgba(184,134,11,0.22)]">
+            <use href="#fanoos-lantern"></use>
+        </svg>
+    </div>
+
+    <!-- ========================================== -->
+    <!-- 1. INTERACTIVE COVER OVERLAY (GATEFOLD)    -->
+    <!-- ========================================== -->
+    <div id="cover-gatefold" class="fixed inset-0 z-50 flex flex-col items-center justify-between p-4 sm:p-8 bg-girih-bright overflow-y-auto">
+        <!-- Soft Sunlit Radial Glow Behind Cover -->
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,253,248,0.6)_0%,rgba(232,243,238,0.75)_100%)] pointer-events-none"></div>
+
+        <!-- Top Ornament Spacer -->
+        <div class="relative z-10 pt-2 text-center">
+            <span class="text-[11px] uppercase tracking-[0.25em] text-emeraldDeep/70 font-semibold">Undangan Digital Resmi</span>
+        </div>
+
+        <!-- Main Gatefold Card -->
+        <div class="relative z-10 my-auto w-full max-w-md luxury-card rounded-3xl p-6 sm:p-9 text-center border border-goldPrimary/35">
+            <!-- 4 Corner Arabesque Ornaments -->
+            <svg class="w-12 h-12 text-goldPrimary absolute top-2.5 left-2.5 pointer-events-none" viewBox="0 0 60 60"><use href="#corner-ornament"/></svg>
+            <svg class="w-12 h-12 text-goldPrimary absolute top-2.5 right-2.5 pointer-events-none scale-x-[-1]" viewBox="0 0 60 60"><use href="#corner-ornament"/></svg>
+            <svg class="w-12 h-12 text-goldPrimary absolute bottom-2.5 left-2.5 pointer-events-none scale-y-[-1]" viewBox="0 0 60 60"><use href="#corner-ornament"/></svg>
+            <svg class="w-12 h-12 text-goldPrimary absolute bottom-2.5 right-2.5 pointer-events-none scale-[-1]" viewBox="0 0 60 60"><use href="#corner-ornament"/></svg>
+
+            <!-- Milestone Badge -->
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emeraldDeep/10 border border-emeraldDeep/25 text-emeraldDeep text-xs uppercase tracking-[0.18em] font-semibold mb-4">
+                <span class="w-2 h-2 rounded-full bg-emeraldRich animate-pulse"></span>
+                <span class="bind-milestone">Memperingati 40 Hari Wafatnya</span>
+            </div>
+
+            <!-- Custom SVG Octagonal Rub el Hizb Memorial Crest -->
+            <div class="relative w-36 h-36 sm:w-40 sm:h-40 mx-auto my-2 flex items-center justify-center">
+                <!-- Outer Rotating Geometric Ring -->
+                <svg class="w-full h-full absolute inset-0 animate-spin-slow text-goldPrimary/75" viewBox="0 0 200 200">
+                    <rect x="32" y="32" width="136" height="136" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                    <rect x="32" y="32" width="136" height="136" fill="none" stroke="#0F5132" stroke-width="1.4" stroke-opacity="0.5" transform="rotate(45 100 100)"/>
+                    <circle cx="100" cy="100" r="80" fill="none" stroke="currentColor" stroke-width="0.9" stroke-dasharray="4 4"/>
+                </svg>
+                <!-- Inner Reverse Rotating Ring -->
+                <svg class="w-32 h-32 absolute animate-spin-reverse-slow text-emeraldDeep/40" viewBox="0 0 200 200">
+                    <polygon points="100,10 123,77 190,100 123,123 100,190 77,123 10,100 77,77" fill="none" stroke="currentColor" stroke-width="1.3"/>
+                </svg>
+                <!-- Center Emblem -->
+                <div class="w-24 h-24 rounded-full bg-gradient-to-b from-white via-pearlBg to-sageSoft border-2 border-goldPrimary/50 flex flex-col items-center justify-center shadow-[0_8px_25px_rgba(15,81,50,0.15)] relative overflow-hidden">
+                    <span class="font-arabic text-2xl text-emeraldDeep font-bold leading-none mb-1">إِنَّا لِلَّهِ</span>
+                    <span class="text-[10px] tracking-widest uppercase text-goldPrimary font-bold">Al-Fatihah</span>
+                </div>
+            </div>
+
+            <p class="text-xs uppercase tracking-[0.22em] text-slateMuted font-semibold mt-2">Undangan Tahlil & Doa Bersama</p>
+            <h1 class="bind-deceased-name font-serifRegal text-2xl sm:text-3xl font-bold text-emerald-gold-gradient mt-1.5 leading-snug">
+                Haryono Bin Wardi Supardi
+            </h1>
+            <p class="text-xs sm:text-sm text-emeraldDeep/80 font-medium mt-1">
+                <span class="bind-event-date">Senin, 09 November 2026</span> &bull; <span class="bind-event-time">19.30 WIB / Ba'da Isya</span>
+            </p>
+
+            <!-- Recipient Box -->
+            <div class="mt-5 pt-5 border-t border-goldPrimary/25">
+                <p class="text-xs text-slateMuted mb-1.5">Kepada Yth. Bapak / Saudara:</p>
+                <div class="px-4 py-3 rounded-2xl bg-white/85 border border-goldPrimary/35 shadow-inner">
+                    <p id="cover-guest-name" class="font-serifRegal text-lg sm:text-xl font-bold text-emeraldDeep tracking-wide">
+                        Bapak / Saudara di Tempat
+                    </p>
+                </div>
+                <p class="text-[11px] text-slateMuted/80 mt-2">Mohon maaf apabila terdapat kesalahan penulisan nama atau gelar</p>
+            </div>
+
+            <!-- Open Invitation Button -->
+            <button id="btn-open-invitation" onclick="openInvitation()" class="mt-6 w-full py-3.5 px-6 rounded-full btn-emerald-gold flex items-center justify-center gap-2.5 text-sm sm:text-base tracking-wide cursor-pointer">
+                <svg class="w-5 h-5 text-goldLight" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 19v-8.93a2 2 0 01.89-1.664l7-4.666a2 2 0 012.22 0l7 4.666A2 2 0 0121 10.07V19M3 19a2 2 0 002 2h14a2 2 0 002-2M3 19l6.75-4.5M21 19l-6.75-4.5M3 10l6.75 4.5M21 10l-6.75 4.5m0 0l-1.14.76a2 2 0 01-2.22 0l-1.14-.76"/>
+                </svg>
+                <span>Buka Undangan</span>
+            </button>
+        </div>
+
+        <div class="relative z-10 text-[11px] text-slateMuted/80 pb-1 font-medium">
+            Ketuk tombol di atas untuk membuka lembaran undangan & doa
+        </div>
+    </div>
+
+    <!-- ========================================== -->
+    <!-- MAIN INVITATION CONTENT CONTAINER          -->
+    <!-- ========================================== -->
+    <nav id="sticky-nav" aria-label="Navigasi undangan" class="hidden">
+        <div class="nav-scroll">
+            <a href="#informasi">Informasi</a>
+            <a href="#lokasi">Lokasi</a>
+            <a href="#bacaan">Bacaan</a>
+            <a href="#penutup">Penutup</a>
+        </div>
+    </nav>
+
+    <main class="relative z-10 max-w-2xl mx-auto px-4 sm:px-6 pt-12 pb-28 space-y-10">
+
+        <!-- 2. HERO & MEMORIAL SECTION (EXACT WORDING & GOLDEN HOUR MIHRAB) -->
+        <section id="informasi" class="luxury-card rounded-3xl p-6 sm:p-10 text-center reveal-item">
+            <!-- 4 Corner Ornaments -->
+            <svg class="w-14 h-14 text-goldPrimary absolute top-2.5 left-2.5 pointer-events-none" viewBox="0 0 60 60"><use href="#corner-ornament"/></svg>
+            <svg class="w-14 h-14 text-goldPrimary absolute top-2.5 right-2.5 pointer-events-none scale-x-[-1]" viewBox="0 0 60 60"><use href="#corner-ornament"/></svg>
+            <svg class="w-14 h-14 text-goldPrimary absolute bottom-2.5 left-2.5 pointer-events-none scale-y-[-1]" viewBox="0 0 60 60"><use href="#corner-ornament"/></svg>
+            <svg class="w-14 h-14 text-goldPrimary absolute bottom-2.5 right-2.5 pointer-events-none scale-[-1]" viewBox="0 0 60 60"><use href="#corner-ornament"/></svg>
+
+            <!-- Bismillah & Salam Pembuka -->
+            <p class="font-arabic text-2xl sm:text-3xl text-emeraldDeep mb-2">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</p>
+            <h2 class="font-serifRegal text-xl sm:text-2xl font-bold text-emeraldDeep tracking-wide mt-2">
+                Assalamu'alaikum Warahmatullahi Wabarakatuh
+            </h2>
+
+            <!-- Divider -->
+            <div class="my-4 flex justify-center">
+                <svg width="240" height="24" viewBox="0 0 300 30"><use href="#section-divider"/></svg>
+            </div>
+
+            <!-- Inna Lillahi Wa Inna Ilaihi Raji'un -->
+            <p class="font-arabic text-3xl sm:text-4xl text-gold-rich font-bold my-2 leading-relaxed">
+                إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ
+            </p>
+            <p class="font-serifRegal text-lg sm:text-xl font-semibold italic text-emeraldDeep">
+                Inna lillahi wa inna ilaihi raji'un.
+            </p>
+
+            <!-- Custom-Designed SVG Illustration: Serene Morning Golden Hour Mosque inside Ornate Mihrab Arch -->
+            <div class="relative w-60 sm:w-68 mx-auto my-6">
+                <!-- Soft Radial Glow Behind Mihrab -->
+                <div class="absolute inset-0 bg-[radial-gradient(circle,rgba(212,175,55,0.28)_0%,transparent_70%)] blur-xl"></div>
+                
+                <svg viewBox="0 0 280 320" class="w-full h-auto drop-shadow-[0_14px_28px_rgba(15,81,50,0.16)] relative z-10">
+                    <defs>
+                        <linearGradient id="skyMorning" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" stop-color="#FFFDF7"/>
+                            <stop offset="48%" stop-color="#F9EBC8"/>
+                            <stop offset="100%" stop-color="#DDF0E6"/>
+                        </linearGradient>
+                        <linearGradient id="domeGoldBright" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#F6E27A"/>
+                            <stop offset="50%" stop-color="#D4AF37"/>
+                            <stop offset="100%" stop-color="#9A7209"/>
+                        </linearGradient>
+                        <linearGradient id="emeraldArch" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" stop-color="#146C43"/>
+                            <stop offset="100%" stop-color="#0A3622"/>
+                        </linearGradient>
+                        <clipPath id="mihrabClipBright">
+                            <path d="M 30 300 L 30 135 C 30 62 140 18 140 18 C 140 18 250 62 250 135 L 250 300 Z"/>
+                        </clipPath>
+                    </defs>
+
+                    <!-- Outer Mihrab Arch Frame -->
+                    <path d="M 22 308 L 22 135 C 22 54 140 8 140 8 C 140 8 258 54 258 135 L 258 308 Z" fill="none" stroke="url(#domeGoldBright)" stroke-width="3"/>
+                    <path d="M 26 304 L 26 135 C 26 58 140 13 140 13 C 140 13 254 58 254 135 L 254 304 Z" fill="none" stroke="#0F5132" stroke-width="0.9" stroke-dasharray="3 3" opacity="0.6"/>
+
+                    <!-- Inside Mihrab Scene -->
+                    <g clip-path="url(#mihrabClipBright)">
+                        <!-- Bright Golden Hour Sky Background -->
+                        <rect x="0" y="0" width="280" height="320" fill="url(#skyMorning)"/>
+                        
+                        <!-- Warm Morning Sun Halo -->
+                        <circle cx="140" cy="125" r="78" fill="url(#lanternRadialBright)" opacity="0.8"/>
+                        
+                        <!-- Gentle Sparkles -->
+                        <g fill="#B8860B">
+                            <path d="M85 85 L87 90 L92 92 L87 94 L85 99 L83 94 L78 92 L83 90 Z" opacity="0.65"/>
+                            <path d="M195 80 L196.5 84 L200.5 85.5 L196.5 87 L195 91 L193.5 87 L189.5 85.5 L193.5 84 Z" opacity="0.65"/>
+                        </g>
+
+                        <!-- Golden Crescent Moon Emblem -->
+                        <path d="M145 48 A 16 16 0 1 0 162 68 A 13 13 0 1 1 145 48 Z" fill="url(#domeGoldBright)"/>
+
+                        <!-- Distant Minarets in Rich Emerald -->
+                        <rect x="58" y="155" width="12" height="115" fill="#146C43" stroke="#D4AF37" stroke-width="0.7"/>
+                        <path d="M56 155 L64 132 L72 155 Z" fill="url(#domeGoldBright)"/>
+                        <line x1="64" y1="132" x2="64" y2="122" stroke="#B8860B" stroke-width="1.4"/>
+
+                        <rect x="210" y="155" width="12" height="115" fill="#146C43" stroke="#D4AF37" stroke-width="0.7"/>
+                        <path d="M208 155 L216 132 L224 155 Z" fill="url(#domeGoldBright)"/>
+                        <line x1="216" y1="132" x2="216" y2="122" stroke="#B8860B" stroke-width="1.4"/>
+
+                        <!-- Main Grand Mosque Dome -->
+                        <path d="M82 220 C82 165 140 138 140 138 C140 138 198 165 198 220 Z" fill="url(#domeGoldBright)"/>
+                        <path d="M140 138 L140 220 M140 138 C120 165 110 195 110 220 M140 138 C160 165 170 195 170 220" stroke="#FFFDF9" stroke-width="0.9" fill="none" opacity="0.45"/>
+                        <!-- Spire Finial -->
+                        <line x1="140" y1="118" x2="140" y2="138" stroke="#B8860B" stroke-width="2"/>
+                        <circle cx="140" cy="128" r="3" fill="#B8860B"/>
+
+                        <!-- Mosque Base Building in Deep Emerald & Ivory -->
+                        <rect x="45" y="220" width="190" height="80" fill="url(#emeraldArch)" stroke="#D4AF37" stroke-width="1.3"/>
+                        <!-- Illuminated Archways -->
+                        <path d="M126 275 L126 244 C126 234 140 230 140 230 C140 230 154 234 154 244 L154 275 Z" fill="#FFFDF7" stroke="#D4AF37" stroke-width="1.2"/>
+                        <path d="M92 275 L92 250 C92 243 102 240 102 240 C102 240 112 243 112 250 L112 275 Z" fill="#FFFDF7" opacity="0.9" stroke="#D4AF37" stroke-width="1"/>
+                        <path d="M168 275 L168 250 C168 243 178 240 178 240 C178 240 188 243 188 250 L188 275 Z" fill="#FFFDF7" opacity="0.9" stroke="#D4AF37" stroke-width="1"/>
+
+                        <!-- Foreground Courtyard Reflection -->
+                        <rect x="30" y="275" width="220" height="30" fill="#E6F2EC"/>
+                        <line x1="45" y1="283" x2="235" y2="283" stroke="#B8860B" stroke-width="0.9" opacity="0.55"/>
+                        <line x1="75" y1="291" x2="205" y2="291" stroke="#0F5132" stroke-width="0.7" opacity="0.35"/>
+                    </g>
+
+                    <!-- Ornate Base Pedestal Line -->
+                    <line x1="14" y1="308" x2="266" y2="308" stroke="url(#domeGoldBright)" stroke-width="3" stroke-linecap="round"/>
+                </svg>
+            </div>
+
+            <!-- Exact Opening Paragraph -->
+            <p class="text-sm sm:text-base text-slateDark leading-relaxed max-w-lg mx-auto font-normal">
+                Dengan memohon Rahmat dan Ridho Allah SWT, kami sekeluarga bermaksud mengundang Bapak/Saudara untuk menghadiri acara <strong class="text-emeraldDeep font-semibold">Tahlil dan Doa Bersama <span class="bind-milestone-lower">memperingati 40 hari wafatnya</span></strong>:
+            </p>
+
+            <!-- Highlighted Almarhum & Schedule Box (Exact Format Requested) -->
+            <div class="mt-6 p-6 sm:p-8 rounded-2xl bg-gradient-to-br from-white/95 via-pearlBg/95 to-sageSoft/80 border-2 border-goldPrimary/40 shadow-md text-left max-w-lg mx-auto space-y-4">
+                <div class="text-center pb-4 border-b border-goldPrimary/25">
+                    <span class="text-xs uppercase tracking-[0.2em] text-goldPrimary font-bold block mb-1">Almarhum :</span>
+                    <h1 class="bind-deceased-name font-serifRegal text-2xl sm:text-4xl font-bold text-emerald-gold-gradient leading-tight">
+                        Haryono Bin Wardi Supardi
+                    </h1>
+                </div>
+
+                <div class="space-y-3 text-sm sm:text-base pt-1">
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 pb-2.5 border-b border-goldPrimary/15">
+                        <span class="text-slateMuted font-medium flex items-center gap-2">
+                            <svg class="w-4 h-4 text-emeraldDeep shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                            Hari / Tanggal :
+                        </span>
+                        <strong class="bind-event-date text-emeraldDeep font-bold sm:text-right">Senin, 09 November 2026</strong>
+                    </div>
+
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 pb-2.5 border-b border-goldPrimary/15">
+                        <span class="text-slateMuted font-medium flex items-center gap-2">
+                            <svg class="w-4 h-4 text-emeraldDeep shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                            Pukul :
+                        </span>
+                        <strong class="bind-event-time text-emeraldDeep font-bold sm:text-right">19.30 WIB / Ba'da Isya</strong>
+                    </div>
+
+                    <div class="flex flex-col sm:flex-row sm:items-start justify-between gap-1">
+                        <span class="text-slateMuted font-medium flex items-center gap-2 shrink-0">
+                            <svg class="w-4 h-4 text-emeraldDeep shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                            Tempat :
+                        </span>
+                        <strong class="bind-venue-address text-emeraldDeep font-bold sm:text-right">Jalan Tenggiri 3 RSS Pabean Udik</strong>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Exact Closing Words & Salam -->
+            <div class="mt-7 space-y-4 text-sm sm:text-base text-slateDark leading-relaxed max-w-lg mx-auto">
+                <p>
+                    Merupakan suatu kehormatan dan kebahagiaan bagi kami sekeluarga, apabila Bapak/Saudara berkenan hadir untuk memberikan doa terbaik bagi almarhum.
+                </p>
+                <p>
+                    Atas kehadiran dan doa yang diberikan, kami ucapkan terima kasih.
+                </p>
+                <p class="font-serifRegal text-xl sm:text-2xl font-bold text-emeraldDeep pt-2">
+                    Wassalamu'alaikum Warahmatullahi Wabarakatuh
+                </p>
+                <p class="font-arabic text-xl text-goldPrimary">
+                    وَالسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ
+                </p>
+            </div>
+
+            <!-- Divider -->
+            <div class="my-6 flex justify-center">
+                <svg width="220" height="24" viewBox="0 0 300 30"><use href="#section-divider"/></svg>
+            </div>
+
+            <!-- Signature Block -->
+            <div id="penutup" class="pt-1">
+                <p class="text-xs sm:text-sm text-slateMuted italic font-serifRegal">Hormat kami,</p>
+                <p id="display-host-family" class="font-serifRegal text-2xl sm:text-3xl font-bold text-emeraldDeep mt-1">
+                    Sekeluarga
+                </p>
+            </div>
+        </section>
+
+        <!-- 3. LIVE COUNTDOWN TIMER & GOOGLE MAPS NAVIGATION -->
+        <section id="lokasi" class="luxury-card rounded-3xl p-6 sm:p-10 text-center reveal-item">
+            <svg class="w-12 h-12 text-goldPrimary absolute top-2.5 left-2.5 pointer-events-none" viewBox="0 0 60 60"><use href="#corner-ornament"/></svg>
+            <svg class="w-12 h-12 text-goldPrimary absolute top-2.5 right-2.5 pointer-events-none scale-x-[-1]" viewBox="0 0 60 60"><use href="#corner-ornament"/></svg>
+
+            <span class="text-xs uppercase tracking-[0.22em] text-goldPrimary font-bold">Menghitung Hari Menuju Acara</span>
+            <h2 class="font-serifRegal text-2xl sm:text-3xl font-bold text-emeraldDeep mt-1 mb-6">Pengingat Waktu & Lokasi</h2>
+
+            <!-- Live Countdown Grid (Targeted to Senin, 09 Nov 2026 19:30 WIB) -->
+            <div class="grid grid-cols-4 gap-2.5 sm:gap-4 max-w-md mx-auto mb-7">
+                <div class="p-3 sm:p-4 rounded-2xl bg-white/90 border border-goldPrimary/40 shadow-sm">
+                    <span id="cd-days" class="block font-serifRegal text-2xl sm:text-4xl font-bold text-emerald-gold-gradient">00</span>
+                    <span class="text-[10px] sm:text-xs uppercase tracking-widest text-slateMuted font-semibold mt-1 block">Hari</span>
+                </div>
+                <div class="p-3 sm:p-4 rounded-2xl bg-white/90 border border-goldPrimary/40 shadow-sm">
+                    <span id="cd-hours" class="block font-serifRegal text-2xl sm:text-4xl font-bold text-emerald-gold-gradient">00</span>
+                    <span class="text-[10px] sm:text-xs uppercase tracking-widest text-slateMuted font-semibold mt-1 block">Jam</span>
+                </div>
+                <div class="p-3 sm:p-4 rounded-2xl bg-white/90 border border-goldPrimary/40 shadow-sm">
+                    <span id="cd-mins" class="block font-serifRegal text-2xl sm:text-4xl font-bold text-emerald-gold-gradient">00</span>
+                    <span class="text-[10px] sm:text-xs uppercase tracking-widest text-slateMuted font-semibold mt-1 block">Menit</span>
+                </div>
+                <div class="p-3 sm:p-4 rounded-2xl bg-white/90 border border-goldPrimary/40 shadow-sm">
+                    <span id="cd-secs" class="block font-serifRegal text-2xl sm:text-4xl font-bold text-emerald-gold-gradient">00</span>
+                    <span class="text-[10px] sm:text-xs uppercase tracking-widest text-slateMuted font-semibold mt-1 block">Detik</span>
+                </div>
+            </div>
+
+            <!-- Action Buttons: Google Maps & Save to Calendar -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 max-w-lg mx-auto">
+                <a id="link-google-maps" href="https://www.google.com/maps/search/?api=1&query=Jalan+Tenggiri+3+RSS+Pabean+Udik+Indramayu" target="_blank" rel="noopener noreferrer"
+                    class="py-3.5 px-5 rounded-2xl btn-emerald-gold text-xs sm:text-sm font-semibold flex items-center justify-center gap-2">
+                    <svg class="w-4 h-4 text-goldLight shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                    </svg>
+                    <span>Buka Google Maps Lokasi</span>
+                </a>
+
+                <button onclick="downloadICS()" class="py-3.5 px-5 rounded-2xl btn-gold-outline text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 cursor-pointer">
+                    <svg class="w-4 h-4 text-goldPrimary shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                    </svg>
+                    <span>Simpan Pengingat Kalender</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- 4. BUILT-IN DIGITAL SURAH AL-FATIHAH & DOA ARWAH READER -->
+        <section id="bacaan" class="luxury-card rounded-3xl p-5 sm:p-8 reveal-item">
+            <div class="text-center mb-5">
+                <span class="text-xs uppercase tracking-[0.22em] text-goldPrimary font-bold">Bacaan Tahlil</span>
+                <h2 class="font-serifRegal text-2xl sm:text-3xl font-bold text-emeraldDeep mt-1">Tawasul, Yasin, Dzikir &amp; Doa</h2>
+                <p class="text-xs sm:text-sm text-slateMuted mt-1">Bacaan untuk <strong class="bind-deceased-name text-emeraldDeep">Almarhum Haryono Bin Wardi Supardi</strong>. Geser ke bawah untuk membaca.</p>
+            </div>
+            <div role="tablist" aria-label="Menu bacaan" class="reader-tabs">
+                <button role="tab" id="rtab-tawasul" data-tab="tawasul" class="reader-tab active">Tawasul</button>
+                <button role="tab" id="rtab-yasin" data-tab="yasin" class="reader-tab">Yasin</button>
+                <button role="tab" id="rtab-dzikir" data-tab="dzikir" class="reader-tab">Dzikir</button>
+                <button role="tab" id="rtab-doa" data-tab="doa" class="reader-tab">Doa</button>
+            </div>
+            <div id="reader-panel" role="tabpanel" class="reader-panel" tabindex="0"></div>
+        </section>
+
+    </main>
+
+    <!-- ======================================================= -->
+    <!-- FLOATING CONTROLS: SHARE WA & AUDIO TOGGLE   -->
+    <!-- ======================================================= -->
+    
+    <!-- Bottom Left: Bagikan ke WhatsApp -->
+    <div class="fixed bottom-4 left-4 z-40 flex flex-wrap items-center gap-2">
+        <button onclick="toggleShareModal(true)" class="px-4 py-2.5 rounded-full btn-emerald-gold text-xs font-semibold flex items-center gap-2 shadow-lg cursor-pointer transition">
+            <svg class="w-4 h-4 text-goldLight" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"/>
+            </svg>
+            <span>Bagikan ke WhatsApp</span>
+        </button>
+
+    </div>
+
+    <!-- Bottom Right: Ambient Audio Toggle Button -->
+    <div class="fixed bottom-4 right-4 z-40">
+        <button id="btn-audio-toggle" onclick="toggleAmbientAudio()" title="Suara Latar Tenang" class="w-11 h-11 rounded-full luxury-card border border-goldPrimary/50 flex items-center justify-center text-emeraldDeep hover:border-emeraldDeep shadow-lg cursor-pointer transition">
+            <svg id="icon-audio-on" class="w-5 h-5 text-emeraldDeep hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/>
+            </svg>
+            <svg id="icon-audio-off" class="w-5 h-5 text-slateMuted" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2"/>
+            </svg>
+        </button>
+    </div>
+
+    <!-- ======================================================= -->
+    <!-- MODAL 1: GENERATOR NAMA TAMU & BAGIKAN KE WHATSAPP      -->
+    <!-- ======================================================= -->
+    <div id="share-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-slate-900/50 backdrop-blur-sm">
+        <div class="luxury-card w-full max-w-lg rounded-3xl p-6 sm:p-8 border border-goldPrimary/50 max-h-[90vh] overflow-y-auto">
+            <div class="flex items-center justify-between border-b border-goldPrimary/25 pb-4 mb-5">
+                <div>
+                    <h3 class="font-serifRegal text-2xl font-bold text-emeraldDeep">Bagikan Undangan ke WhatsApp</h3>
+                    <p class="text-xs text-slateMuted">Buat link khusus dengan nama Bapak/Saudara yang diundang</p>
+                </div>
+                <button onclick="toggleShareModal(false)" class="w-8 h-8 rounded-full bg-white border border-goldPrimary/30 flex items-center justify-center text-slateDark hover:text-emeraldDeep cursor-pointer">
+                    ✕
+                </button>
+            </div>
+
+            <div class="space-y-4 text-xs sm:text-sm">
+                <div>
+                    <label class="block font-semibold text-emeraldDeep mb-1">Ketik Nama Tamu Undangan:</label>
+                    <input type="text" id="share-guest-input" oninput="updateSharePreview()" value="Bapak / Saudara di Tempat" placeholder="Contoh: Bapak H. Sudirman"
+                        class="w-full px-3.5 py-2.5 rounded-xl bg-white border border-goldPrimary/40 text-slateDark focus:outline-none focus:border-emeraldDeep">
+                </div>
+
+                <div>
+                    <label class="block font-semibold text-emeraldDeep mb-1">Preview Pesan Pengantar WhatsApp:</label>
+                    <textarea id="share-wa-preview" rows="9" readonly
+                        class="w-full p-3.5 rounded-xl bg-white/90 border border-goldPrimary/30 text-xs text-slateDark font-sans leading-relaxed"></textarea>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 pt-2">
+                    <button type="button" onclick="copyShareMessage()" class="py-3 px-4 rounded-xl btn-emerald-gold font-semibold flex items-center justify-center gap-2 cursor-pointer">
+                        <svg class="w-4 h-4 text-goldLight" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"/></svg>
+                        <span>Salin Teks Undangan WA</span>
+                    </button>
+                    <button type="button" onclick="sendDirectWhatsApp()" class="py-3 px-4 rounded-xl btn-gold-outline font-semibold flex items-center justify-center gap-2 cursor-pointer">
+                        <span>Kirim Langsung ke Aplikasi WA</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TOAST NOTIFICATION BOX (NO ALERT()) -->
+    <div id="toast-box" class="fixed top-6 left-1/2 -translate-x-1/2 z-50 px-5 py-3 rounded-full luxury-card border-2 border-emeraldDeep text-emeraldDeep text-xs sm:text-sm font-semibold shadow-2xl transition-all duration-300 opacity-0 pointer-events-none translate-y-[-12px]">
+        Notifikasi
+    </div>
+
+    <!-- ========================================== -->
+    <!-- JAVASCRIPT LOGIC & ANIMATION ENGINE        -->
+    <!-- ========================================== -->
+    <script>
+        /* -----------------------------------------------------------
+         * PERMANENT DEFAULT INVITATION DATA
+         * ----------------------------------------------------------- */
+        const invitationState = {
+            deceasedName: "Haryono Bin Wardi Supardi",
+            milestone: "Memperingati 40 Hari Wafatnya",
+            eventDate: "Senin, 09 November 2026",
+            eventTime: "19.30 WIB / Ba'da Isya",
+            venueAddress: "Jalan Tenggiri 3 RSS Pabean Udik",
+            guestName: "Bapak / Saudara di Tempat",
+            targetISO: "2026-11-09T19:30:00+07:00"
+        };
+
+        /* -----------------------------------------------------------
+         * 1. TOAST NOTIFICATION HELPER
+         * ----------------------------------------------------------- */
+        function showToast(message) {
+            const toast = document.getElementById('toast-box');
+            toast.textContent = message;
+            toast.classList.remove('opacity-0', 'translate-y-[-12px]');
+            toast.classList.add('opacity-100', 'translate-y-0');
+            setTimeout(() => {
+                toast.classList.remove('opacity-100', 'translate-y-0');
+                toast.classList.add('opacity-0', 'translate-y-[-12px]');
+            }, 3200);
+        }
+
+        /* -----------------------------------------------------------
+         * 2. URL PARAMETER GUEST NAME PERSONALIZATION (?to=Nama+Tamu)
+         * ----------------------------------------------------------- */
+        function initGuestFromURL() {
+            const params = new URLSearchParams(window.location.search);
+            const guestParam = params.get('to') || params.get('kepada');
+            if (guestParam && guestParam.trim() !== '') {
+                setGuestName(guestParam.trim());
+            }
+        }
+
+        function setGuestName(name) {
+            invitationState.guestName = name;
+            document.getElementById('cover-guest-name').textContent = name;
+            document.getElementById('share-guest-input').value = name;
+            updateSharePreview();
+        }
+
+        /* -----------------------------------------------------------
+         * 3. GATEFOLD COVER OPEN & WEB AUDIO SERENE CHIME SYNTHESIZER
+         * ----------------------------------------------------------- */
+        let audioCtx = null;
+        let isAudioPlaying = false;
+        let chimeInterval = null;
+
+        function openInvitation() {
+            document.getElementById("sticky-nav").classList.remove("hidden");
+            const cover = document.getElementById('cover-gatefold');
+            cover.classList.add('gate-opened');
+            startSereneAmbientAudio();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Pure Web Audio API Peaceful Islamic Contemplative Chime
+        function playGentleChord() {
+            if (!isAudioPlaying || !audioCtx) return;
+            const now = audioCtx.currentTime;
+            const notes = [261.63, 329.63, 392.00, 440.00, 523.25];
+            const freq = notes[Math.floor(Math.random() * notes.length)];
+
+            const osc = audioCtx.createOscillator();
+            const gain = audioCtx.createGain();
+
+            osc.type = 'sine';
+            osc.frequency.setValueAtTime(freq, now);
+
+            gain.gain.setValueAtTime(0.001, now);
+            gain.gain.exponentialRampToValueAtTime(0.03, now + 1.2);
+            gain.gain.exponentialRampToValueAtTime(0.0001, now + 5.2);
+
+            osc.connect(gain);
+            gain.connect(audioCtx.destination);
+
+            osc.start(now);
+            osc.stop(now + 5.3);
+        }
+
+        function startSereneAmbientAudio() {
+            try {
+                if (!audioCtx) {
+                    const AudioContext = window.AudioContext || window.webkitAudioContext;
+                    audioCtx = new AudioContext();
+                }
+                if (audioCtx.state === 'suspended') {
+                    audioCtx.resume();
+                }
+                isAudioPlaying = true;
+                updateAudioButtonUI();
+                playGentleChord();
+                if (!chimeInterval) {
+                    chimeInterval = setInterval(playGentleChord, 4000);
+                }
+            } catch (e) {
+                console.warn('Web Audio API memerlukan interaksi pengguna:', e);
+            }
+        }
+
+        function toggleAmbientAudio() {
+            if (!audioCtx) {
+                startSereneAmbientAudio();
+                return;
+            }
+            isAudioPlaying = !isAudioPlaying;
+            if (isAudioPlaying) {
+                audioCtx.resume();
+                playGentleChord();
+                showToast('Suara latar tenang diaktifkan');
+            } else {
+                showToast('Suara latar dinonaktifkan');
+            }
+            updateAudioButtonUI();
+        }
+
+        function updateAudioButtonUI() {
+            const onIcon = document.getElementById('icon-audio-on');
+            const offIcon = document.getElementById('icon-audio-off');
+            if (isAudioPlaying) {
+                onIcon.classList.remove('hidden');
+                offIcon.classList.add('hidden');
+            } else {
+                onIcon.classList.add('hidden');
+                offIcon.classList.remove('hidden');
+            }
+        }
+
+        /* -----------------------------------------------------------
+         * 4. HTML5 CANVAS FLOATING GOLDEN & EMERALD LIGHT PARTICLES
+         * ----------------------------------------------------------- */
+        const canvas = document.getElementById('particle-canvas');
+        const ctx = canvas.getContext('2d');
+        let particles = [];
+
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+
+        class BrightParticle {
+            constructor() {
+                this.reset();
+            }
+            reset() {
+                this.x = Math.random() * canvas.width;
+                this.y = Math.random() * canvas.height;
+                this.size = Math.random() * 2.4 + 0.8;
+                this.speedY = -(Math.random() * 0.32 + 0.08);
+                this.speedX = (Math.random() - 0.5) * 0.22;
+                this.isGold = Math.random() > 0.3;
+                this.alpha = Math.random() * 0.4 + 0.12;
+                this.pulseSpeed = Math.random() * 0.02 + 0.006;
+                this.pulseOffset = Math.random() * Math.PI * 2;
+            }
+            update(tick) {
+                this.y += this.speedY;
+                this.x += this.speedX;
+                if (this.y < -10) {
+                    this.y = canvas.height + 10;
+                    this.x = Math.random() * canvas.width;
+                }
+                this.currentAlpha = this.alpha + Math.sin(tick * this.pulseSpeed + this.pulseOffset) * 0.12;
+            }
+            draw() {
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                const safeAlpha = Math.max(0.05, this.currentAlpha);
+                if (this.isGold) {
+                    ctx.fillStyle = `rgba(184, 134, 11, ${safeAlpha})`;
+                    ctx.shadowColor = 'rgba(212, 175, 55, 0.45)';
+                } else {
+                    ctx.fillStyle = `rgba(15, 81, 50, ${safeAlpha * 0.75})`;
+                    ctx.shadowColor = 'rgba(15, 81, 50, 0.25)';
+                }
+                ctx.shadowBlur = 6;
+                ctx.fill();
+            }
+        }
+
+        function initParticles() {
+            resizeCanvas();
+            const count = window.innerWidth < 640 ? 25 : 45;
+            particles = Array.from({ length: count }, () => new BrightParticle());
+        }
+
+        let tickCount = 0;
+        function animateParticles() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            tickCount++;
+            particles.forEach(p => {
+                p.update(tickCount);
+                p.draw();
+            });
+            requestAnimationFrame(animateParticles);
+        }
+
+        window.addEventListener('resize', resizeCanvas);
+
+        /* -----------------------------------------------------------
+         * 6. COUNTDOWN TIMER TO SENIN, 09 NOV 2026 19:30 WIB & .ICS
+         * ----------------------------------------------------------- */
+        const targetEventDate = new Date("2026-11-09T19:30:00+07:00");
+
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const diff = targetEventDate.getTime() - now;
+
+            if (diff <= 0) {
+                document.getElementById('cd-days').textContent = '00';
+                document.getElementById('cd-hours').textContent = '00';
+                document.getElementById('cd-mins').textContent = '00';
+                document.getElementById('cd-secs').textContent = '00';
+                return;
+            }
+
+            const d = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const h = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const s = Math.floor((diff % (1000 * 60)) / 1000);
+
+            document.getElementById('cd-days').textContent = String(d).padStart(2, '0');
+            document.getElementById('cd-hours').textContent = String(h).padStart(2, '0');
+            document.getElementById('cd-mins').textContent = String(m).padStart(2, '0');
+            document.getElementById('cd-secs').textContent = String(s).padStart(2, '0');
+        }
+
+        function downloadICS() {
+            const icsContent = [
+                'BEGIN:VCALENDAR',
+                'VERSION:2.0',
+                'BEGIN:VEVENT',
+                `SUMMARY:Tahlil & Doa Bersama 40 Hari - Almarhum ${invitationState.deceasedName}`,
+                `DESCRIPTION:Undangan Tahlil dan Doa Bersama memperingati 40 hari wafatnya Almarhum ${invitationState.deceasedName}.`,
+                `LOCATION:${invitationState.venueAddress}`,
+                'DTSTART:20261109T123000Z',
+                'DTEND:20261109T143000Z',
+                'END:VEVENT',
+                'END:VCALENDAR'
+            ].join('\n');
+
+            const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'Undangan-Tahlil-40-Hari-Alm-Haryono.ics';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            showToast('Pengingat kalender (.ICS) berhasil disimpan');
+        }
+
+        /* -----------------------------------------------------------
+         * 7. WHATSAPP SHARE LINK GENERATOR
+         * ----------------------------------------------------------- */
+        function toggleShareModal(show) {
+            const modal = document.getElementById('share-modal');
+            if (show) {
+                updateSharePreview();
+                modal.classList.remove('hidden');
+                modal.classList.add('flex');
+            } else {
+                modal.classList.add('hidden');
+                modal.classList.remove('flex');
+            }
+        }
+
+        function updateSharePreview() {
+            const guestName = document.getElementById('share-guest-input').value.trim() || 'Bapak / Saudara';
+            const baseUrl = window.location.origin + window.location.pathname;
+            const customLink = `${baseUrl}?to=${encodeURIComponent(guestName)}`;
+
+            const waMessage = 
+`Assalamu'alaikum Warahmatullahi Wabarakatuh
+
+Kepada Yth. *${guestName}*
+
+Inna lillahi wa inna ilaihi raji'un.
+
+Dengan memohon Rahmat dan Ridho Allah SWT, kami sekeluarga bermaksud mengundang Bapak/Saudara untuk menghadiri acara Tahlil dan Doa Bersama memperingati 40 hari wafatnya:
+
+*Almarhum : ${invitationState.deceasedName}*
+📅 *Hari / Tanggal :* ${invitationState.eventDate}
+🕖 *Pukul :* ${invitationState.eventTime}
+📍 *Tempat :* ${invitationState.venueAddress}
+
+🔗 *Link Undangan Digital:*
+${customLink}
+
+Merupakan suatu kehormatan dan kebahagiaan bagi kami sekeluarga, apabila Bapak/Saudara berkenan hadir untuk memberikan doa terbaik bagi almarhum.
+Atas kehadiran dan doa yang diberikan, kami ucapkan terima kasih.
+
+Wassalamu'alaikum Warahmatullahi Wabarakatuh
+
+Hormat kami,
+*Sekeluarga*`;
+
+            document.getElementById('share-wa-preview').value = waMessage;
+        }
+
+        function copyShareMessage() {
+            const preview = document.getElementById('share-wa-preview');
+            preview.select();
+            document.execCommand('copy');
+            showToast('Pesan undangan WhatsApp berhasil disalin!');
+        }
+
+        function sendDirectWhatsApp() {
+            const msg = document.getElementById('share-wa-preview').value;
+            const waUrl = `https://wa.me/?text=${encodeURIComponent(msg)}`;
+            window.open(waUrl, '_blank');
+        }
+
+        /* -----------------------------------------------------------
+         * 9. INTERSECTION OBSERVER SCROLL REVEAL
+         * ----------------------------------------------------------- */
+        function initScrollReveal() {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('revealed');
+                    }
+                });
+            }, { threshold: 0.12 });
+
+            document.querySelectorAll('.reveal-item').forEach(el => observer.observe(el));
+        }
+
+        /* -----------------------------------------------------------
+         * INITIALIZE ON WINDOW LOAD
+         * ----------------------------------------------------------- */
+        function initNavActive() {
+            const links = [...document.querySelectorAll('#sticky-nav a')];
+            const map = new Map(links.map(a => [a.getAttribute('href').slice(1), a]));
+            const io = new IntersectionObserver(es => es.forEach(e => {
+                if (e.isIntersecting) { links.forEach(l => l.classList.remove('active')); const a = map.get(e.target.id); if (a) { a.classList.add('active'); a.scrollIntoView({inline:'center', block:'nearest'}); } }
+            }), { rootMargin: '-30% 0px -60% 0px' });
+            map.forEach((a, id) => { const el = document.getElementById(id); if (el) io.observe(el); });
+        }
+
+        window.onload = function() {
+            initNavActive();
+            initGuestFromURL();
+            updateSharePreview();
+            initParticles();
+            animateParticles();
+            updateCountdown();
+            setInterval(updateCountdown, 1000);
+            initScrollReveal();
+        };
+    </script>
+
+<script>
+/* ===== DATA BACAAN (lokal, sumber: litequran.net/tahlil) ===== */
+const YASIN_BASMALAH = "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ";
+const YASIN = [
+["يٰسۤ ۚ","Yā Sīn."],
+["وَالْقُرْاٰنِ الْحَكِيْمِۙ","Demi Al-Qur’an yang penuh hikmah,"],
+["اِنَّكَ لَمِنَ الْمُرْسَلِيْنَۙ","sesungguhnya engkau (Nabi Muhammad) benar-benar salah seorang dari rasul-rasul"],
+["عَلٰى صِرَاطٍ مُّسْتَقِيْمٍۗ","(yang berada) di atas jalan yang lurus,"],
+["تَنْزِيْلَ الْعَزِيْزِ الرَّحِيْمِۙ","(sebagai wahyu) yang diturunkan oleh (Allah) Yang Mahaperkasa lagi Maha Penyayang,"],
+["لِتُنْذِرَ قَوْمًا مَّآ اُنْذِرَ اٰبَاۤؤُهُمْ فَهُمْ غٰفِلُوْنَ","agar engkau (Nabi Muhammad) memberi peringatan kepada suatu kaum yang nenek moyang mereka belum pernah diberi peringatan, sehingga mereka lalai."],
+["لَقَدْ حَقَّ الْقَوْلُ عَلٰٓى اَكْثَرِهِمْ فَهُمْ لَا يُؤْمِنُوْنَ","Sungguh, benar-benar berlaku perkataan (ketetapan takdir) terhadap kebanyakan mereka, maka mereka tidak akan beriman."],
+["اِنَّا جَعَلْنَا فِيْٓ اَعْنَاقِهِمْ اَغْلٰلًا فَهِيَ اِلَى الْاَذْقَانِ فَهُمْ مُّقْمَحُوْنَ","Sesungguhnya Kami telah memasang belenggu di leher mereka, lalu (tangan mereka yang terbelenggu diangkat) ke dagu, karena itu mereka tertengadah."],
+["وَجَعَلْنَا مِنْۢ بَيْنِ اَيْدِيْهِمْ سَدًّا وَّمِنْ خَلْفِهِمْ سَدًّا فَاَغْشَيْنٰهُمْ فَهُمْ لَا يُبْصِرُوْنَ","Kami memasang penghalang di hadapan mereka dan di belakang mereka, sehingga Kami menutupi (pandangan) mereka. Mereka pun tidak dapat melihat."],
+["وَسَوَاۤءٌ عَلَيْهِمْ ءَاَنْذَرْتَهُمْ اَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُوْنَ","Sama saja bagi mereka, apakah engkau (Nabi Muhammad) memberi peringatan kepada mereka atau tidak. Mereka (tetap) tidak akan beriman."],
+["اِنَّمَا تُنْذِرُ مَنِ اتَّبَعَ الذِّكْرَ وَخَشِيَ الرَّحْمٰنَ بِالْغَيْبِۚ فَبَشِّرْهُ بِمَغْفِرَةٍ وَّاَجْرٍ كَرِيْمٍ","Sesungguhnya engkau (Nabi Muhammad) hanya (bisa) memberi peringatan kepada orang-orang yang mau mengikutinya dan yang takut kepada Tuhan Yang Maha Pengasih tanpa melihat-Nya. Berilah mereka kabar gembira dengan ampunan dan pahala yang mulia."],
+["اِنَّا نَحْنُ نُحْيِ الْمَوْتٰى وَنَكْتُبُ مَا قَدَّمُوْا وَاٰثَارَهُمْۗ وَكُلَّ شَيْءٍ اَحْصَيْنٰهُ فِيْٓ اِمَامٍ مُّبِيْنٍ ࣖ","Sesungguhnya Kamilah yang menghidupkan orang-orang yang mati dan Kami (pulalah) yang mencatat apa yang telah mereka kerjakan dan bekas-bekas yang mereka (tinggalkan). Segala sesuatu Kami kumpulkan dalam kitab induk yang nyata (Lauhulmahfuz)."],
+["وَاضْرِبْ لَهُمْ مَّثَلًا اَصْحٰبَ الْقَرْيَةِۘ اِذْ جَاۤءَهَا الْمُرْسَلُوْنَۚ","Buatlah suatu perumpamaan bagi mereka (kaum kafir Makkah), yaitu penduduk suatu negeri, ketika para utusan datang kepada mereka,"],
+["اِذْ اَرْسَلْنَآ اِلَيْهِمُ اثْنَيْنِ فَكَذَّبُوْهُمَا فَعَزَّزْنَا بِثَالِثٍ فَقَالُوْٓا اِنَّآ اِلَيْكُمْ مُّرْسَلُوْنَ","(yaitu) ketika Kami mengutus kepada mereka dua orang utusan, lalu mereka mendustakan keduanya. Kemudian Kami menguatkan dengan (utusan) yang ketiga. Maka, ketiga (utusan itu) berkata, “Sesungguhnya kami adalah orang-orang yang diutus kepadamu.”"],
+["قَالُوْا مَآ اَنْتُمْ اِلَّا بَشَرٌ مِّثْلُنَاۙ وَمَآ اَنْزَلَ الرَّحْمٰنُ مِنْ شَيْءٍۙ اِنْ اَنْتُمْ اِلَّا تَكْذِبُوْنَ","Mereka (penduduk negeri) menjawab, “Kamu tidak lain hanyalah manusia seperti kami. (Allah) Yang Maha Pengasih tidak (pernah) menurunkan sesuatu apa pun. Kamu hanyalah berdusta.”"],
+["قَالُوْا رَبُّنَا يَعْلَمُ اِنَّآ اِلَيْكُمْ لَمُرْسَلُوْنَ","Mereka (para rasul) berkata, “Tuhan kami mengetahui bahwa sesungguhnya kami benar-benar para utusan(-Nya) kepadamu."],
+["وَمَا عَلَيْنَآ اِلَّا الْبَلٰغُ الْمُبِيْنُ","Adapun kewajiban kami hanyalah menyampaikan (perintah Allah) yang jelas.”"],
+["قَالُوْٓا اِنَّا تَطَيَّرْنَا بِكُمْۚ لَىِٕنْ لَّمْ تَنْتَهُوْا لَنَرْجُمَنَّكُمْ وَلَيَمَسَّنَّكُمْ مِّنَّا عَذَابٌ اَلِيْمٌ","Mereka (penduduk negeri) menjawab, “Sesungguhnya kami bernasib malang karenamu. Sungguh, jika kamu tidak berhenti (menyeru kami), niscaya kami merajam kamu dan kamu pasti akan merasakan siksaan yang pedih dari kami.”"],
+["قَالُوْا طَاۤىِٕرُكُمْ مَّعَكُمْۗ اَىِٕنْ ذُكِّرْتُمْۗ بَلْ اَنْتُمْ قَوْمٌ مُّسْرِفُوْنَ","Mereka (para rasul) berkata, “Kemalangan kamu itu (akibat perbuatan) kamu sendiri. Apakah karena kamu diberi peringatan, (lalu kamu menjadi malang)? Sebenarnya kamu adalah kaum yang melampaui batas.”"],
+["وَجَاۤءَ مِنْ اَقْصَا الْمَدِيْنَةِ رَجُلٌ يَّسْعٰى قَالَ يٰقَوْمِ اتَّبِعُوا الْمُرْسَلِيْنَۙ","Datanglah dengan bergegas dari ujung kota, seorang laki-laki. Dia berkata, “Wahai kaumku, ikutilah para rasul itu!"],
+["اتَّبِعُوْا مَنْ لَّا يَسْـَٔلُكُمْ اَجْرًا وَّهُمْ مُّهْتَدُوْنَ ۔","Ikutilah orang yang tidak meminta imbalan (dalam berdakwah) kepadamu. Mereka adalah orang-orang yang mendapat petunjuk."],
+["وَمَا لِيَ لَآ اَعْبُدُ الَّذِيْ فَطَرَنِيْ وَاِلَيْهِ تُرْجَعُوْنَ","Apa (alasanku) untuk tidak menyembah (Allah) yang telah menciptakanku dan hanya kepada-Nyalah kamu akan dikembalikan?"],
+["ءَاَتَّخِذُ مِنْ دُوْنِهٖٓ اٰلِهَةً اِنْ يُّرِدْنِ الرَّحْمٰنُ بِضُرٍّ لَّا تُغْنِ عَنِّيْ شَفَاعَتُهُمْ شَيْـًٔا وَّلَا يُنْقِذُوْنِۚ","Mengapa aku (harus) mengambil sembahan-sembahan selain-Nya? Jika (Allah) Yang Maha Pengasih menghendaki bencana terhadapku, pasti pertolongan mereka tidak berguna sama sekali bagi diriku dan mereka (juga) tidak dapat menyelamatkanku."],
+["اِنِّيْٓ اِذًا لَّفِيْ ضَلٰلٍ مُّبِيْنٍ","Sesungguhnya aku (jika berbuat) begitu, pasti berada dalam kesesatan yang nyata."],
+["اِنِّيْٓ اٰمَنْتُ بِرَبِّكُمْ فَاسْمَعُوْنِۗ","Sesungguhnya aku telah beriman kepada Tuhanmu. Maka, dengarkanlah (pengakuan)-ku.”"],
+["قِيْلَ ادْخُلِ الْجَنَّةَ ۗقَالَ يٰلَيْتَ قَوْمِيْ يَعْلَمُوْنَۙ","Dikatakan (kepadanya), “Masuklah ke surga.” Dia (laki-laki itu) berkata, “Aduhai, sekiranya kaumku mengetahui"],
+["بِمَا غَفَرَ لِيْ رَبِّيْ وَجَعَلَنِيْ مِنَ الْمُكْرَمِيْنَ","(bagaimana) Tuhanku mengampuniku dan menjadikanku termasuk orang-orang yang dimuliakan.”"],
+["۞ وَمَآ اَنْزَلْنَا عَلٰى قَوْمِهٖ مِنْۢ بَعْدِهٖ مِنْ جُنْدٍ مِّنَ السَّمَاۤءِ وَمَا كُنَّا مُنْزِلِيْنَ","Setelah dia (dibunuh), Kami tidak menurunkan satu pasukan pun dari langit kepada kaumnya dan Kami tidak perlu menurunkannya."],
+["اِنْ كَانَتْ اِلَّا صَيْحَةً وَّاحِدَةً فَاِذَا هُمْ خٰمِدُوْنَ","(Azab mereka) itu cukup dengan satu teriakan saja. Maka, seketika itu mereka mati."],
+["يٰحَسْرَةً عَلَى الْعِبَادِۚ مَا يَأْتِيْهِمْ مِّنْ رَّسُوْلٍ اِلَّا كَانُوْا بِهٖ يَسْتَهْزِءُوْنَ","Alangkah besar penyesalan diri para hamba itu. Setiap datang seorang rasul kepada mereka, mereka selalu memperolok-olokkannya."],
+["اَلَمْ يَرَوْا كَمْ اَهْلَكْنَا قَبْلَهُمْ مِّنَ الْقُرُوْنِ اَنَّهُمْ اِلَيْهِمْ لَا يَرْجِعُوْنَ","Tidakkah mereka mengetahui berapa banyak umat sebelum mereka yang telah Kami binasakan? Mereka (setelah binasa) tidak ada yang kembali kepada mereka (di dunia)."],
+["وَاِنْ كُلٌّ لَّمَّا جَمِيْعٌ لَّدَيْنَا مُحْضَرُوْنَ ࣖ","Tidak ada satu (umat) pun, kecuali semuanya akan dihadirkan kepada Kami (untuk dihisab)."],
+["وَاٰيَةٌ لَّهُمُ الْاَرْضُ الْمَيْتَةُ ۖاَحْيَيْنٰهَا وَاَخْرَجْنَا مِنْهَا حَبًّا فَمِنْهُ يَأْكُلُوْنَ","Suatu tanda (kekuasaan-Nya) bagi mereka adalah bumi yang mati (tandus lalu) Kami menghidupkannya dan mengeluarkan darinya biji-bijian kemudian dari (biji-bijian) itu mereka makan."],
+["وَجَعَلْنَا فِيْهَا جَنّٰتٍ مِّنْ نَّخِيْلٍ وَّاَعْنَابٍ وَّفَجَّرْنَا فِيْهَا مِنَ الْعُيُوْنِۙ","Kami (juga) menjadikan padanya (bumi) kebun-kebun kurma dan anggur serta Kami memancarkan padanya beberapa mata air"],
+["لِيَأْكُلُوْا مِنْ ثَمَرِهٖۙ وَمَا عَمِلَتْهُ اَيْدِيْهِمْ ۗ اَفَلَا يَشْكُرُوْنَ","agar mereka dapat makan dari buahnya, dan dari hasil usaha tangan mereka. Mengapa mereka tidak bersyukur?"],
+["سُبْحٰنَ الَّذِيْ خَلَقَ الْاَزْوَاجَ كُلَّهَا مِمَّا تُنْۢبِتُ الْاَرْضُ وَمِنْ اَنْفُسِهِمْ وَمِمَّا لَا يَعْلَمُوْنَ","Mahasuci (Allah) yang telah menciptakan semuanya berpasang-pasangan, baik dari apa yang ditumbuhkan oleh bumi dan dari diri mereka sendiri maupun dari apa yang tidak mereka ketahui."],
+["وَاٰيَةٌ لَّهُمُ الَّيْلُ ۖنَسْلَخُ مِنْهُ النَّهَارَ فَاِذَا هُمْ مُّظْلِمُوْنَۙ","Suatu tanda juga (atas kekuasaan Allah) bagi mereka adalah malam. Kami pisahkan siang dari (malam) itu. Maka, seketika itu mereka (berada dalam) kegelapan."],
+["وَالشَّمْسُ تَجْرِيْ لِمُسْتَقَرٍّ لَّهَا ۗذٰلِكَ تَقْدِيْرُ الْعَزِيْزِ الْعَلِيْمِۗ","(Suatu tanda juga atas kekuasaan Allah bagi mereka adalah) matahari yang berjalan di tempat peredarannya. Demikianlah ketetapan (Allah) Yang Mahaperkasa lagi Maha Mengetahui."],
+["وَالْقَمَرَ قَدَّرْنٰهُ مَنَازِلَ حَتّٰى عَادَ كَالْعُرْجُوْنِ الْقَدِيْمِ","(Begitu juga) bulan, Kami tetapkan bagi(-nya) tempat-tempat peredaran sehingga (setelah ia sampai ke tempat peredaran yang terakhir,) kembalilah ia seperti bentuk tandan yang tua."],
+["لَا الشَّمْسُ يَنْۢبَغِيْ لَهَآ اَنْ تُدْرِكَ الْقَمَرَ وَلَا الَّيْلُ سَابِقُ النَّهَارِ ۗوَكُلٌّ فِيْ فَلَكٍ يَّسْبَحُوْنَ","Tidaklah mungkin bagi matahari mengejar bulan dan malam pun tidak dapat mendahului siang. Masing-masing beredar pada garis edarnya."],
+["وَاٰيَةٌ لَّهُمْ اَنَّا حَمَلْنَا ذُرِّيَّتَهُمْ فِى الْفُلْكِ الْمَشْحُوْنِۙ","Suatu tanda (kebesaran Allah) bagi mereka adalah bahwa Kami mengangkut keturunan mereka dalam kapal yang penuh muatan."],
+["وَخَلَقْنَا لَهُمْ مِّنْ مِّثْلِهٖ مَا يَرْكَبُوْنَ","(Begitu juga) Kami menciptakan untuk mereka dari jenis itu angkutan (lain) yang mereka kendarai."],
+["وَاِنْ نَّشَأْ نُغْرِقْهُمْ فَلَا صَرِيْخَ لَهُمْ وَلَاهُمْ يُنْقَذُوْنَۙ","Jika Kami menghendaki, Kami akan menenggelamkan mereka. Kemudian, tidak ada penolong bagi mereka dan tidak (pula) mereka diselamatkan."],
+["اِلَّا رَحْمَةً مِّنَّا وَمَتَاعًا اِلٰى حِيْنٍ","Akan tetapi, (Kami menyelamatkan mereka) karena rahmat yang besar dari Kami dan untuk memberi mereka kesenangan hidup sampai waktu tertentu."],
+["وَاِذَا قِيْلَ لَهُمُ اتَّقُوْا مَا بَيْنَ اَيْدِيْكُمْ وَمَا خَلْفَكُمْ لَعَلَّكُمْ تُرْحَمُوْنَ","Ketika dikatakan kepada mereka, “Takutlah kamu akan (siksa) yang ada di hadapanmu (di dunia) dan azab yang ada di belakangmu (akhirat) agar kamu mendapat rahmat,” (maka mereka berpaling)."],
+["وَمَا تَأْتِيْهِمْ مِّنْ اٰيَةٍ مِّنْ اٰيٰتِ رَبِّهِمْ اِلَّا كَانُوْا عَنْهَا مُعْرِضِيْنَ","Tidak satu pun dari tanda-tanda (kebesaran) Tuhan datang kepada mereka, kecuali mereka berpaling darinya."],
+["وَاِذَا قِيْلَ لَهُمْ اَنْفِقُوْا مِمَّا رَزَقَكُمُ اللّٰهُ ۙقَالَ الَّذِيْنَ كَفَرُوْا لِلَّذِيْنَ اٰمَنُوْٓا اَنُطْعِمُ مَنْ لَّوْ يَشَاۤءُ اللّٰهُ اَطْعَمَهٗٓ ۖاِنْ اَنْتُمْ اِلَّا فِيْ ضَلٰلٍ مُّبِيْنٍ","Apabila dikatakan kepada mereka, “Infakkanlah sebagian rezeki yang diberikan Allah kepadamu,” orang-orang yang kufur itu berkata kepada orang-orang yang beriman, “Apakah pantas kami memberi makan kepada orang-orang yang jika Allah menghendaki, Dia akan memberinya makan? Kamu benar-benar dalam kesesatan yang nyata.”"],
+["وَيَقُوْلُوْنَ مَتٰى هٰذَا الْوَعْدُ اِنْ كُنْتُمْ صٰدِقِيْنَ","Mereka berkata, “Kapankah janji (hari Kebangkitan) ini (terjadi) jika kamu orang-orang benar?”"],
+["مَا يَنْظُرُوْنَ اِلَّا صَيْحَةً وَّاحِدَةً تَأْخُذُهُمْ وَهُمْ يَخِصِّمُوْنَ","Mereka hanya menunggu satu teriakan yang akan membinasakan mereka saat mereka (sibuk) bertengkar (tentang urusan dunia)."],
+["فَلَا يَسْتَطِيْعُوْنَ تَوْصِيَةً وَّلَآ اِلٰٓى اَهْلِهِمْ يَرْجِعُوْنَ ࣖ","Oleh sebab itu, mereka tidak dapat berwasiat dan tidak dapat kembali kepada keluarganya."],
+["وَنُفِخَ فِى الصُّوْرِ فَاِذَا هُمْ مِّنَ الْاَجْدَاثِ اِلٰى رَبِّهِمْ يَنْسِلُوْنَ","Sangkakala pun ditiup dan seketika itu mereka bergerak cepat dari kuburnya menuju kepada Tuhannya."],
+["قَالُوْا يٰوَيْلَنَا مَنْۢ بَعَثَنَا مِنْ مَّرْقَدِنَا ۜهٰذَا مَا وَعَدَ الرَّحْمٰنُ وَصَدَقَ الْمُرْسَلُوْنَ","Mereka berkata, “Celakalah kami! Siapakah yang membangkitkan kami dari tempat tidur kami (kubur)?” (Lalu, dikatakan kepada mereka,) “Inilah yang dijanjikan (Allah) Yang Maha Pengasih dan benarlah para rasul(-Nya).”"],
+["اِنْ كَانَتْ اِلَّا صَيْحَةً وَّاحِدَةً فَاِذَا هُمْ جَمِيْعٌ لَّدَيْنَا مُحْضَرُوْنَ","Teriakan itu hanya sekali saja, maka seketika itu mereka semua dihadapkan kepada Kami (untuk dihisab)."],
+["فَالْيَوْمَ لَا تُظْلَمُ نَفْسٌ شَيْـًٔا وَّلَا تُجْزَوْنَ اِلَّا مَا كُنْتُمْ تَعْمَلُوْنَ","Pada hari itu tidak ada sama sekali orang yang dirugikan sedikit pun. Kamu tidak akan diberi balasan, kecuali atas apa yang telah kamu kerjakan."],
+["اِنَّ اَصْحٰبَ الْجَنَّةِ الْيَوْمَ فِيْ شُغُلٍ فٰكِهُوْنَ ۚ","Sesungguhnya penghuni surga pada hari itu berada dalam kesibukan (sehingga tidak sempat berpikir tentang penghuni neraka) lagi bersenang-senang."],
+["هُمْ وَاَزْوَاجُهُمْ فِيْ ظِلٰلٍ عَلَى الْاَرَاۤىِٕكِ مُتَّكِـُٔوْنَ ۚ","Mereka dan pasangan-pasangannya berada dalam tempat yang teduh sambil berbaring di atas ranjang berkelambu."],
+["لَهُمْ فِيْهَا فَاكِهَةٌ وَّلَهُمْ مَّا يَدَّعُوْنَ ۚ","Di (surga) itu mereka memperoleh buah-buahan dan apa saja yang mereka inginkan."],
+["سَلٰمٌۗ قَوْلًا مِّنْ رَّبٍّ رَّحِيْمٍ","(Kepada mereka dikatakan,) “Salam sejahtera” sebagai ucapan dari Tuhan Yang Maha Penyayang."],
+["وَامْتَازُوا الْيَوْمَ اَيُّهَا الْمُجْرِمُوْنَ","(Dikatakan kepada orang-orang kafir,) “Berpisahlah kamu (dari orang-orang mukmin) pada hari ini, wahai para pendurhaka!"],
+["۞ اَلَمْ اَعْهَدْ اِلَيْكُمْ يٰبَنِيْٓ اٰدَمَ اَنْ لَّا تَعْبُدُوا الشَّيْطٰنَۚ اِنَّهٗ لَكُمْ عَدُوٌّ مُّبِيْنٌ","Bukankah Aku telah berpesan kepadamu dengan sungguh-sungguh, wahai anak cucu Adam, bahwa janganlah kamu menyembah setan? Sesungguhnya setan itu musuh yang nyata bagi kamu."],
+["وَاَنِ اعْبُدُوْنِيْ ۗهٰذَا صِرَاطٌ مُّسْتَقِيْمٌ","(Begitu juga bahwa) sembahlah Aku. Inilah jalan yang lurus.”"],
+["وَلَقَدْ اَضَلَّ مِنْكُمْ جِبِلًّا كَثِيْرًا ۗاَفَلَمْ تَكُوْنُوْا تَعْقِلُوْنَ","Sungguh, ia (setan itu) benar-benar telah menyesatkan sangat banyak orang dari kamu. Maka, apakah kamu tidak mengerti?"],
+["هٰذِهٖ جَهَنَّمُ الَّتِيْ كُنْتُمْ تُوْعَدُوْنَ","Inilah (neraka) Jahanam yang dahulu telah diperingatkan kepadamu."],
+["اِصْلَوْهَا الْيَوْمَ بِمَا كُنْتُمْ تَكْفُرُوْنَ","Masuklah ke dalamnya pada hari ini karena dahulu kamu mengingkarinya."],
+["اَلْيَوْمَ نَخْتِمُ عَلٰٓى اَفْوَاهِهِمْ وَتُكَلِّمُنَآ اَيْدِيْهِمْ وَتَشْهَدُ اَرْجُلُهُمْ بِمَا كَانُوْا يَكْسِبُوْنَ","Pada hari ini Kami membungkam mulut mereka. Tangan merekalah yang berkata kepada Kami dan kaki merekalah yang akan bersaksi terhadap apa yang dahulu mereka kerjakan."],
+["وَلَوْ نَشَاۤءُ لَطَمَسْنَا عَلٰٓى اَعْيُنِهِمْ فَاسْتَبَقُوا الصِّرَاطَ فَاَنّٰى يُبْصِرُوْنَ","Seandainya Kami menghendaki, pastilah Kami akan menghapus penglihatan (membutakan) mereka sehingga mereka berlomba-lomba (mencari) jalan (selamat). Maka, bagaimana mungkin mereka dapat melihat?"],
+["وَلَوْ نَشَاۤءُ لَمَسَخْنٰهُمْ عَلٰى مَكَانَتِهِمْ فَمَا اسْتَطَاعُوْا مُضِيًّا وَّلَا يَرْجِعُوْنَ ࣖ","Seandainya Kami menghendaki, pastilah Kami akan mengubah bentuk mereka di tempat mereka berada, sehingga mereka tidak sanggup meneruskan perjalanan dan juga tidak sanggup pulang kembali."],
+["وَمَنْ نُّعَمِّرْهُ نُنَكِّسْهُ فِى الْخَلْقِۗ اَفَلَا يَعْقِلُوْنَ","Siapa yang Kami panjangkan umurnya niscaya Kami balik proses penciptaannya (dari kuat menuju lemah). Maka, apakah mereka tidak mengerti?"],
+["وَمَا عَلَّمْنٰهُ الشِّعْرَ وَمَا يَنْۢبَغِيْ لَهٗ ۗاِنْ هُوَ اِلَّا ذِكْرٌ وَّقُرْاٰنٌ مُّبِيْنٌ ۙ","Kami tidak mengajarkan syair kepadanya (Nabi Muhammad) dan (bersyair) itu tidaklah pantas baginya. (Wahyu yang Kami turunkan kepadanya) itu tidak lain hanyalah pelajaran dan Al-Qur’an yang jelas"],
+["لِّيُنْذِرَ مَنْ كَانَ حَيًّا وَّيَحِقَّ الْقَوْلُ عَلَى الْكٰفِرِيْنَ","agar dia (Nabi Muhammad) memberi peringatan kepada orang-orang yang hidup (hatinya) dan agar ketetapan (azab) terhadap orang-orang kafir itu menjadi pasti."],
+["اَوَلَمْ يَرَوْا اَنَّا خَلَقْنَا لَهُمْ مِّمَّا عَمِلَتْ اَيْدِيْنَآ اَنْعَامًا فَهُمْ لَهَا مٰلِكُوْنَ","Tidakkah mereka mengetahui bahwa Kami telah menciptakan untuk mereka hewan-hewan ternak dari ciptaan tangan Kami (sendiri), lalu mereka menjadi pemiliknya?"],
+["وَذَلَّلْنٰهَا لَهُمْ فَمِنْهَا رَكُوْبُهُمْ وَمِنْهَا يَأْكُلُوْنَ","Kami menjadikannya (hewan-hewan itu) tunduk kepada mereka. Sebagian di antaranya menjadi tunggangan mereka dan sebagian (lagi) mereka makan."],
+["وَلَهُمْ فِيْهَا مَنَافِعُ وَمَشَارِبُۗ اَفَلَا يَشْكُرُوْنَ","Pada dirinya (hewan-hewan ternak itu) terdapat berbagai manfaat dan minuman untuk mereka. Apakah mereka tidak bersyukur?"],
+["وَاتَّخَذُوْا مِنْ دُوْنِ اللّٰهِ اٰلِهَةً لَّعَلَّهُمْ يُنْصَرُوْنَ ۗ","Mereka menjadikan sesembahan selain Allah agar mereka mendapat pertolongan."],
+["لَا يَسْتَطِيْعُوْنَ نَصْرَهُمْۙ وَهُمْ لَهُمْ جُنْدٌ مُّحْضَرُوْنَ","(Sesembahan) itu tidak mampu menolong mereka, padahal (sesembahan) itu adalah tentara yang dihadirkan untuk menjaganya."],
+["فَلَا يَحْزُنْكَ قَوْلُهُمْ ۘاِنَّا نَعْلَمُ مَا يُسِرُّوْنَ وَمَا يُعْلِنُوْنَ","Maka, jangan sampai ucapan mereka membuat engkau (Nabi Muhammad) bersedih hati. Sesungguhnya Kami mengetahui apa yang mereka rahasiakan dan apa yang mereka nyatakan."],
+["اَوَلَمْ يَرَ الْاِنْسَانُ اَنَّا خَلَقْنٰهُ مِنْ نُّطْفَةٍ فَاِذَا هُوَ خَصِيْمٌ مُّبِيْنٌ","Tidakkah manusia mengetahui bahwa Kami menciptakannya dari setetes mani? Kemudian tiba-tiba saja dia menjadi musuh yang nyata."],
+["وَضَرَبَ لَنَا مَثَلًا وَّنَسِيَ خَلْقَهٗۗ قَالَ مَنْ يُّحْيِ الْعِظَامَ وَهِيَ رَمِيْمٌ","Dia membuat perumpamaan bagi Kami dan melupakan asal penciptaannya. Dia berkata, “Siapakah yang bisa menghidupkan tulang-belulang yang telah hancur luluh?”"],
+["قُلْ يُحْيِيْهَا الَّذِيْٓ اَنْشَاَهَآ اَوَّلَ مَرَّةٍ ۗوَهُوَ بِكُلِّ خَلْقٍ عَلِيْمٌ ۙ","Katakanlah (Nabi Muhammad), “Yang akan menghidupkannya adalah Zat yang menciptakannya pertama kali. Dia Maha Mengetahui setiap makhluk."],
+["ۨالَّذِيْ جَعَلَ لَكُمْ مِّنَ الشَّجَرِ الْاَخْضَرِ نَارًاۙ فَاِذَآ اَنْتُمْ مِّنْهُ تُوْقِدُوْنَ","(Dialah) yang menjadikan api untukmu dari kayu yang hijau. Kemudian, seketika itu kamu menyalakan (api) darinya.”"],
+["اَوَلَيْسَ الَّذِيْ خَلَقَ السَّمٰوٰتِ وَالْاَرْضَ بِقٰدِرٍ عَلٰٓى اَنْ يَّخْلُقَ مِثْلَهُمْ ۗبَلٰى وَهُوَ الْخَلّٰقُ الْعَلِيْمُ","Bukankah Zat yang menciptakan langit dan bumi mampu menciptakan manusia yang serupa mereka itu (di akhirat kelak)? Benar. Dialah yang Mahabanyak Mencipta lagi Maha Mengetahui."],
+["اِنَّمَآ اَمْرُهٗٓ اِذَآ اَرَادَ شَيْـًٔاۖ اَنْ يَّقُوْلَ لَهٗ كُنْ فَيَكُوْنُ","Sesungguhnya ketetapan-Nya, jika Dia menghendaki sesuatu, Dia hanya berkata kepadanya, “Jadilah!” Maka, jadilah (sesuatu) itu."],
+["فَسُبْحٰنَ الَّذِيْ بِيَدِهٖ مَلَكُوْتُ كُلِّ شَيْءٍ وَّاِلَيْهِ تُرْجَعُوْنَ ࣖ","Maka, Mahasuci (Allah) yang di tangan-Nya kekuasaan atas segala sesuatu dan kepada-Nya kamu dikembalikan."]
+];
+
+const BSM = "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ";
+const BSM_ID = "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang.";
+const TAWASUL = [
+{t:"Hadiah Fatihah",a:"إِلَى حَضْرَةِ النَّبِيِّ الْمُصْطَفَى سَيِّدِنَا مُحَمَّدٍ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ وَاٰلِهِ وَأَزْوَاجِهِ وَأَوْلَادِهِ وَذُرِّيَّاتِهِ، اَلْفَاتِحَةُ",i:"Kepada Nabi pilihan, junjungan kami Nabi Muhammad ṣallallāhu ‘alaihi wa sallam, beserta keluarga, istri-istri, anak-anak, dan keturunan beliau, (kami hadiahkan) Al-Fatihah."},
+{t:"Hadiah Fatihah",a:"ثُمَّ إِلَى حَضْرَةِ إِخْوَانِهِ مِنَ الْأَنْبِيَاءِ وَالْمُرْسَلِيْنَ وَالْأَوْلِيَاءِ وَالشُّهَدَاءِ وَالصَّالِحِيْنَ وَالصَّحَابَةِ وَالتَّابِعِيْنَ وَالْعُلَمَاءِ الْعَامِلِيْنَ وَالْمُصَنِّفِيْنَ الْمُخْلِصِيْنَ وَجَمِيْعِ الْمَلَائِكَةِ الْمُقَرَّبِيْنَ، خُصُوْصًا إِلَى سَيِّدِنَا الشَّيْخِ عَبْدِ الْقَادِرِ الْجِيْلَانِيِّ، اَلْفَاتِحَةُ",i:"Kemudian kepada saudara-saudara beliau dari kalangan para nabi dan rasul, para wali, para syuhada, orang-orang saleh, para sahabat, para tabiin, para ulama yang mengamalkan ilmunya, para penulis kitab yang ikhlas, dan semua malaikat yang didekatkan kepada Allah, khususnya kepada Syekh Abdul Qadir al-Jilani, (kami hadiahkan) Al-Fatihah."},
+{t:"Hadiah Fatihah",a:"ثُمَّ إِلَى جَمِيْعِ أَهْلِ الْقُبُوْرِ مِنَ الْمُسْلِمِيْنَ وَالْمُسْلِمَاتِ وَالْمُؤْمِنِيْنَ وَالْمُؤْمِنَاتِ مِنْ مَشَارِقِ الْأَرْضِ إِلَى مَغَارِبِهَا بَرِّهَا وَبَحْرِهَا، خُصُوْصًا إِلَى اٰبَائِنَا وَأُمَّهَاتِنَا وَأَجْدَادِنَا وَجَدَّاتِنَا وَمَشَايِخِنَا وَمَشَايِخِ مَشَايِخِنَا وَأَسَاتِذَةِ أَسَاتِذَتِنَا وَلِمَنْ أَحْسَنَ إِلَيْنَا وَلِمَنِ اجْتَمَعْنَا هٰهُنَا بِسَبَبِهِ، اَلْفَاتِحَةُ",i:"Kemudian kepada seluruh ahli kubur dari kalangan muslimin dan muslimat, mukminin dan mukminat, dari timur hingga barat bumi, di darat maupun di laut, khususnya kepada bapak-bapak, ibu-ibu, kakek-kakek, dan nenek-nenek kami, guru-guru kami dan guru dari guru-guru kami, para pengajar dari pengajar kami, orang-orang yang telah berbuat baik kepada kami, serta orang yang menjadi sebab kami berkumpul di sini, (kami hadiahkan) Al-Fatihah."},
+{t:"Hadiah Fatihah untuk Almarhum",a:"ثُمَّ إِلَى حَضْرَةِ رُوْحِ {{NAMA}} رَحِمَهُ اللهُ وَغَفَرَ لَهُ، اَلْفَاتِحَةُ",i:"Kemudian kepada arwah Almarhum {{NAMA}}. Semoga Allah merahmati dan mengampuni beliau. (Kami hadiahkan) Al-Fatihah.",note:"Pada sumber, bagian ini berisi nama yang dikosongkan (“…”); di sini diisi nama almarhum dengan bentuk tunggal."}
+];
+
+const DZIKIR = [
+{h:"Bacaan Surat",items:[
+{t:"QS. Al-Ikhlas (3x)",a:"قُلْ هُوَ اللّٰهُ اَحَدٌۚ ١ اَللّٰهُ الصَّمَدُۚ ٢ لَمْ يَلِدْ وَلَمْ يُوْلَدْۙ ٣ وَلَمْ يَكُنْ لَّهٗ كُفُوًا اَحَدٌ ࣖ ٤",i:"Katakanlah (Nabi Muhammad), “Dialah Allah Yang Maha Esa. Allah tempat meminta segala sesuatu. Dia tidak beranak dan tidak pula diperanakkan serta tidak ada sesuatu pun yang setara dengan-Nya.”",bsm:1},
+{t:"Tahlil dan Takbir",a:"لَا إِلٰهَ إِلَّا اللهُ وَاللهُ أَكْبَرُ",i:"Tidak ada tuhan selain Allah, dan Allah Mahabesar."},
+{t:"QS. Al-Falaq",a:"قُلْ اَعُوْذُ بِرَبِّ الْفَلَقِۙ ١ مِنْ شَرِّ مَا خَلَقَۙ ٢ وَمِنْ شَرِّ غَاسِقٍ اِذَا وَقَبَۙ ٣ وَمِنْ شَرِّ النَّفّٰثٰتِ فِى الْعُقَدِۙ ٤ وَمِنْ شَرِّ حَاسِدٍ اِذَا حَسَدَ ࣖ ٥",i:"Katakanlah (Nabi Muhammad), “Aku berlindung kepada Tuhan yang (menjaga) fajar (subuh) dari kejahatan (makhluk yang) Dia ciptakan, dari kejahatan malam apabila telah gelap gulita, dari kejahatan perempuan-perempuan (penyihir) yang meniup pada buhul-buhul (talinya), dan dari kejahatan orang yang dengki apabila dia dengki.”",bsm:1},
+{t:"Tahlil dan Takbir",a:"لَا إِلٰهَ إِلَّا اللهُ وَاللهُ أَكْبَرُ",i:"Tidak ada tuhan selain Allah, dan Allah Mahabesar."},
+{t:"QS. An-Nas",a:"قُلْ اَعُوْذُ بِرَبِّ النَّاسِۙ ١ مَلِكِ النَّاسِۙ ٢ اِلٰهِ النَّاسِۙ ٣ مِنْ شَرِّ الْوَسْوَاسِ ەۙ الْخَنَّاسِۖ ٤ الَّذِيْ يُوَسْوِسُ فِيْ صُدُوْرِ النَّاسِۙ ٥ مِنَ الْجِنَّةِ وَالنَّاسِ ࣖ ٦",i:"Katakanlah (Nabi Muhammad), “Aku berlindung kepada Tuhan manusia, raja manusia, sembahan manusia dari kejahatan (setan) pembisik yang bersembunyi yang membisikkan (kejahatan) ke dalam dada manusia, dari (golongan) jin dan manusia.”",bsm:1},
+{t:"Tahlil dan Takbir",a:"لَا إِلٰهَ إِلَّا اللهُ وَاللهُ أَكْبَرُ",i:"Tidak ada tuhan selain Allah, dan Allah Mahabesar."},
+{t:"QS. Al-Fatihah",a:"اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَۙ ٢ الرَّحْمٰنِ الرَّحِيْمِۙ ٣ مٰلِكِ يَوْمِ الدِّيْنِۗ ٤ اِيَّاكَ نَعْبُدُ وَاِيَّاكَ نَسْتَعِيْنُۗ ٥ اِهْدِنَا الصِّرَاطَ الْمُسْتَقِيْمَۙ ٦ صِرَاطَ الَّذِيْنَ اَنْعَمْتَ عَلَيْهِمْ ەۙ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّاۤلِّيْنَ ࣖ ٧",i:"Segala puji bagi Allah, Tuhan semesta alam Yang Maha Pengasih lagi Maha Penyayang, Pemilik hari Pembalasan. Hanya kepada Engkaulah kami menyembah dan hanya kepada Engkaulah kami memohon pertolongan. Bimbinglah kami ke jalan yang lurus, (yaitu) jalan orang-orang yang telah Engkau beri nikmat, bukan (jalan) mereka yang dimurkai dan bukan (pula jalan) orang-orang yang sesat.",bsm:1}
+]},
+{h:"Ayat-ayat Al-Quran",items:[
+{t:"QS. Al-Baqarah: 1–5",a:"الۤمّۤ ۚ ١ ذٰلِكَ الْكِتٰبُ لَا رَيْبَ ۛ فِيْهِ ۛ هُدًى لِّلْمُتَّقِيْنَۙ ٢ الَّذِيْنَ يُؤْمِنُوْنَ بِالْغَيْبِ وَيُقِيْمُوْنَ الصَّلٰوةَ وَمِمَّا رَزَقْنٰهُمْ يُنْفِقُوْنَ ۙ ٣ وَالَّذِيْنَ يُؤْمِنُوْنَ بِمَآ اُنْزِلَ اِلَيْكَ وَمَآ اُنْزِلَ مِنْ قَبْلِكَ ۚ وَبِالْاٰخِرَةِ هُمْ يُوْقِنُوْنَۗ ٤ اُولٰۤىِٕكَ عَلٰى هُدًى مِّنْ رَّبِّهِمْ ۙ وَاُولٰۤىِٕكَ هُمُ الْمُفْلِحُوْنَ ٥",i:"Alif Lām Mīm. Kitab (Al-Qur’an) ini tidak ada keraguan di dalamnya; (ia merupakan) petunjuk bagi orang-orang yang bertakwa, (yaitu) orang-orang yang beriman pada yang gaib, menegakkan salat, dan menginfakkan sebagian rezeki yang Kami anugerahkan kepada mereka, dan mereka yang beriman pada (Al-Qur’an) yang diturunkan kepadamu (Nabi Muhammad) dan (kitab-kitab suci) yang telah diturunkan sebelum engkau dan mereka yakin akan adanya akhirat. Merekalah yang mendapat petunjuk dari Tuhannya dan mereka itulah orang-orang yang beruntung.",bsm:1},
+{t:"QS. Al-Baqarah: 163",a:"وَاِلٰهُكُمْ اِلٰهٌ وَّاحِدٌۚ لَآاِلٰهَ اِلَّا هُوَ الرَّحْمٰنُ الرَّحِيْمُ ࣖ ١٦٣",i:"Tuhan kamu adalah Tuhan Yang Maha Esa. Tidak ada tuhan selain Dia Yang Maha Pengasih lagi Maha Penyayang."},
+{t:"Ayat Kursi, QS. Al-Baqarah: 255",a:"اَللّٰهُ لَآ اِلٰهَ اِلَّا هُوَۚ اَلْحَيُّ الْقَيُّوْمُ ەۚ لَا تَأْخُذُهٗ سِنَةٌ وَّلَا نَوْمٌۗ لَهٗ مَا فِى السَّمٰوٰتِ وَمَا فِى الْاَرْضِۗ مَنْ ذَا الَّذِيْ يَشْفَعُ عِنْدَهٗٓ اِلَّا بِاِذْنِهٖۗ يَعْلَمُ مَا بَيْنَ اَيْدِيْهِمْ وَمَا خَلْفَهُمْۚ وَلَا يُحِيْطُوْنَ بِشَيْءٍ مِّنْ عِلْمِهٖٓ اِلَّا بِمَا شَاۤءَۚ وَسِعَ كُرْسِيُّهُ السَّمٰوٰتِ وَالْاَرْضَۚ وَلَا يَـُٔوْدُهٗ حِفْظُهُمَاۚ وَهُوَ الْعَلِيُّ الْعَظِيْمُ ٢٥٥",i:"Allah, tidak ada tuhan selain Dia, Yang Mahahidup lagi terus-menerus mengurus (makhluk-Nya). Dia tidak dilanda oleh kantuk dan tidak (pula) oleh tidur. Milik-Nyalah apa yang ada di langit dan apa yang ada di bumi. Tidak ada yang dapat memberi syafaat di sisi-Nya tanpa izin-Nya. Dia mengetahui apa yang ada di hadapan mereka dan apa yang ada di belakang mereka. Mereka tidak mengetahui sesuatu apa pun dari ilmu-Nya, kecuali apa yang Dia kehendaki. Kursi-Nya (ilmu dan kekuasaan-Nya) meliputi langit dan bumi. Dia tidak merasa berat memelihara keduanya. Dialah yang Mahatinggi lagi Mahaagung."},
+{t:"QS. Al-Baqarah: 284–286",a:"لِلّٰهِ مَا فِى السَّمٰوٰتِ وَمَا فِى الْاَرْضِ ۗ وَاِنْ تُبْدُوْا مَا فِيْٓ اَنْفُسِكُمْ اَوْ تُخْفُوْهُ يُحَاسِبْكُمْ بِهِ اللّٰهُ ۗ فَيَغْفِرُ لِمَنْ يَّشَاۤءُ وَيُعَذِّبُ مَنْ يَّشَاۤءُ ۗ وَاللّٰهُ عَلٰى كُلِّ شَيْءٍ قَدِيْرٌ ٢٨٤ اٰمَنَ الرَّسُوْلُ بِمَآ اُنْزِلَ اِلَيْهِ مِنْ رَّبِّهٖ وَالْمُؤْمِنُوْنَۗ كُلٌّ اٰمَنَ بِاللّٰهِ وَمَلٰۤىِٕكَتِهٖ وَكُتُبِهٖ وَرُسُلِهٖۗ لَا نُفَرِّقُ بَيْنَ اَحَدٍ مِّنْ رُّسُلِهٖ ۗ وَقَالُوْا سَمِعْنَا وَاَطَعْنَا غُفْرَانَكَ رَبَّنَا وَاِلَيْكَ الْمَصِيْرُ ٢٨٥ لَا يُكَلِّفُ اللّٰهُ نَفْسًا اِلَّا وُسْعَهَا ۗ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا اكْتَسَبَتْ ۗ رَبَّنَا لَا تُؤَاخِذْنَآ اِنْ نَّسِيْنَآ اَوْ اَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ اِصْرًا كَمَا حَمَلْتَهٗ عَلَى الَّذِيْنَ مِنْ قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهٖۚ وَاعْفُ عَنَّاۗ وَاغْفِرْ لَنَاۗ وَارْحَمْنَا ۗ اَنْتَ مَوْلٰىنَا فَانْصُرْنَا عَلَى الْقَوْمِ الْكٰفِرِيْنَ ࣖ ٢٨٦",i:"Milik Allahlah apa yang ada di langit dan apa yang ada di bumi. Jika kamu menyatakan apa yang ada di dalam hatimu atau kamu menyembunyikannya, niscaya Allah memperhitungkannya bagimu. Dia mengampuni siapa saja yang Dia kehendaki dan mengazab siapa pun yang Dia kehendaki. Allah Mahakuasa atas segala sesuatu. Rasul (Muhammad) beriman pada apa (Al-Qur’an) yang diturunkan kepadanya dari Tuhannya, demikian pula orang-orang mukmin. Masing-masing beriman kepada Allah, malaikat-malaikat-Nya, kitab kitab-Nya, dan rasul-rasul-Nya. (Mereka berkata,) “Kami tidak membeda-bedakan seorang pun dari rasul-rasul-Nya.” Mereka juga berkata, “Kami dengar dan kami taat. Ampunilah kami, wahai Tuhan kami. Hanya kepada-Mu tempat (kami) kembali.” Allah tidak membebani seseorang, kecuali menurut kesanggupannya. Baginya ada sesuatu (pahala) dari (kebajikan) yang diusahakannya dan terhadapnya ada (pula) sesuatu (siksa) atas (kejahatan) yang diperbuatnya. (Mereka berdoa,) “Wahai Tuhan kami, janganlah Engkau hukum kami jika kami lupa atau kami salah. Wahai Tuhan kami, janganlah Engkau bebani kami dengan beban yang berat sebagaimana Engkau bebankan kepada orang-orang sebelum kami. Wahai Tuhan kami, janganlah Engkau pikulkan kepada kami apa yang tidak sanggup kami memikulnya. Maafkanlah kami, ampunilah kami, dan rahmatilah kami. Engkaulah pelindung kami. Maka, tolonglah kami dalam menghadapi kaum kafir.”"},
+{t:"Doa Rahmat (7x)",a:"اِرْحَمْنَا يَا أَرْحَمَ الرَّاحِمِيْنَ",i:"Sayangilah kami, wahai Yang Maha Penyayang di antara para penyayang."},
+{t:"QS. Hud: 73 (sebagian)",a:"رَحْمَتُ اللّٰهِ وَبَرَكٰتُهٗ عَلَيْكُمْ اَهْلَ الْبَيْتِۗ اِنَّهٗ حَمِيْدٌ مَّجِيْدٌ",i:"(Itu adalah) rahmat dan berkah Allah (yang) dicurahkan kepada kamu, wahai ahlulbait! Sesungguhnya Dia Maha Terpuji lagi Mahamulia."},
+{t:"QS. Al-Ahzab: 33 (sebagian)",a:"اِنَّمَا يُرِيْدُ اللّٰهُ لِيُذْهِبَ عَنْكُمُ الرِّجْسَ اَهْلَ الْبَيْتِ وَيُطَهِّرَكُمْ تَطْهِيْرًاۚ",i:"Sesungguhnya Allah hanya hendak menghilangkan dosa darimu, wahai ahlulbait dan membersihkan kamu sebersih-bersihnya."},
+{t:"QS. Al-Ahzab: 56",a:"اِنَّ اللّٰهَ وَمَلٰۤىِٕكَتَهٗ يُصَلُّوْنَ عَلَى النَّبِيِّۗ يٰٓاَيُّهَا الَّذِيْنَ اٰمَنُوْا صَلُّوْا عَلَيْهِ وَسَلِّمُوْا تَسْلِيْمًا ٥٦",i:"Sesungguhnya Allah dan para malaikat-Nya berselawat untuk Nabi. Wahai orang-orang yang beriman, berselawatlah kamu untuk Nabi dan ucapkanlah salam dengan penuh penghormatan kepadanya."}
+],src:"Ayat Al-Quran mengikuti teks dan terjemahan Kementerian Agama RI."},
+{h:"Selawat dan Zikir",items:[
+{t:"Selawat",a:"اَللّٰهُمَّ صَلِّ أَفْضَلَ الصَّلَاةِ عَلَى أَسْعَدِ مَخْلُوْقَاتِكَ نُوْرِ الْهُدَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى اٰلِهِ وَصَحْبِهِ وَسَلِّمْ، عَدَدَ مَعْلُوْمَاتِكَ وَمِدَادَ كَلِمَاتِكَ، كُلَّمَا ذَكَرَكَ الذَّاكِرُوْنَ وَغَفَلَ عَنْ ذِكْرِكَ الْغَافِلُوْنَ",i:"Ya Allah, limpahkanlah selawat yang paling utama kepada makhluk-Mu yang paling bahagia, cahaya petunjuk, junjungan kami Nabi Muhammad, beserta keluarga dan sahabatnya, serta limpahkanlah salam, sebanyak segala yang Engkau ketahui dan sebanyak tinta untuk menulis kalimat-kalimat-Mu, setiap kali orang-orang yang ingat menyebut-Mu dan setiap kali orang-orang yang lalai lupa menyebut-Mu."},
+{t:"Selawat",a:"اَللّٰهُمَّ صَلِّ أَفْضَلَ الصَّلَاةِ عَلَى أَسْعَدِ مَخْلُوْقَاتِكَ شَمْسِ الضُّحَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى اٰلِهِ وَصَحْبِهِ وَسَلِّمْ، عَدَدَ مَعْلُوْمَاتِكَ وَمِدَادَ كَلِمَاتِكَ، كُلَّمَا ذَكَرَكَ الذَّاكِرُوْنَ وَغَفَلَ عَنْ ذِكْرِكَ الْغَافِلُوْنَ",i:"Ya Allah, limpahkanlah selawat yang paling utama kepada makhluk-Mu yang paling bahagia, matahari di waktu duha, junjungan kami Nabi Muhammad, beserta keluarga dan sahabatnya, serta limpahkanlah salam, sebanyak segala yang Engkau ketahui dan sebanyak tinta untuk menulis kalimat-kalimat-Mu, setiap kali orang-orang yang ingat menyebut-Mu dan setiap kali orang-orang yang lalai lupa menyebut-Mu."},
+{t:"Selawat",a:"اَللّٰهُمَّ صَلِّ أَفْضَلَ الصَّلَاةِ عَلَى أَسْعَدِ مَخْلُوْقَاتِكَ بَدْرِ الدُّجَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى اٰلِهِ وَصَحْبِهِ وَسَلِّمْ، عَدَدَ مَعْلُوْمَاتِكَ وَمِدَادَ كَلِمَاتِكَ، كُلَّمَا ذَكَرَكَ الذَّاكِرُوْنَ وَغَفَلَ عَنْ ذِكْرِكَ الْغَافِلُوْنَ",i:"Ya Allah, limpahkanlah selawat yang paling utama kepada makhluk-Mu yang paling bahagia, bulan purnama di kegelapan malam, junjungan kami Nabi Muhammad, beserta keluarga dan sahabatnya, serta limpahkanlah salam, sebanyak segala yang Engkau ketahui dan sebanyak tinta untuk menulis kalimat-kalimat-Mu, setiap kali orang-orang yang ingat menyebut-Mu dan setiap kali orang-orang yang lalai lupa menyebut-Mu."},
+{t:"Salam untuk Sahabat",a:"وَسَلِّمْ، وَرَضِيَ اللهُ تَعَالَى عَنْ سَادَاتِنَا أَصْحَابِ رَسُوْلِ اللهِ أَجْمَعِيْنَ",i:"Dan limpahkanlah salam. Semoga Allah Taala meridai para pemimpin kami, seluruh sahabat Rasulullah."},
+{t:"Hasbalah",a:"حَسْبُنَا اللهُ وَنِعْمَ الْوَكِيْلُ، نِعْمَ الْمَوْلَى وَنِعْمَ النَّصِيْرُ",i:"Cukuplah Allah bagi kami, dan Dialah sebaik-baik tempat berserah diri, sebaik-baik pelindung, dan sebaik-baik penolong."},
+{t:"Hauqalah",a:"وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ الْعَلِيِّ الْعَظِيْمِ",i:"Tidak ada daya dan kekuatan kecuali dengan pertolongan Allah Yang Mahatinggi lagi Mahaagung."}
+]},
+{h:"Istigfar dan Tahlil",items:[
+{t:"Istigfar (3x)",a:"أَسْتَغْفِرُ اللهَ الْعَظِيْمَ",i:"Aku memohon ampun kepada Allah Yang Mahaagung."},
+{t:"Afdaluz Zikri",a:"أَفْضَلُ الذِّكْرِ فَاعْلَمْ أَنَّهُ لَا إِلٰهَ إِلَّا اللهُ، حَيٌّ مَوْجُوْدٌ",i:"Ketahuilah, zikir yang paling utama adalah lā ilāha illallāh (tidak ada tuhan selain Allah), Yang Mahahidup lagi Mahaada."},
+{t:"Afdaluz Zikri",a:"لَا إِلٰهَ إِلَّا اللهُ، حَيٌّ مَعْبُوْدٌ",i:"Tidak ada tuhan selain Allah, Yang Mahahidup lagi disembah."},
+{t:"Afdaluz Zikri",a:"لَا إِلٰهَ إِلَّا اللهُ، حَيٌّ بَاقٍ",i:"Tidak ada tuhan selain Allah, Yang Mahahidup lagi Mahakekal."},
+{t:"Tahlil (100x)",a:"لَا إِلٰهَ إِلَّا اللهُ",i:"Tidak ada tuhan selain Allah. (Dibaca 100 kali; sebagian membaca 33 kali.)"},
+{t:"Syahadat",a:"لَا إِلٰهَ إِلَّا اللهُ مُحَمَّدٌ رَسُوْلُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ",i:"Tidak ada tuhan selain Allah, Muhammad adalah utusan Allah. Semoga Allah melimpahkan selawat dan salam kepadanya."},
+{t:"Selawat (2x)",a:"اَللّٰهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ، اَللّٰهُمَّ صَلِّ عَلَيْهِ وَسَلِّمْ",i:"Ya Allah, limpahkanlah selawat kepada junjungan kami Nabi Muhammad. Ya Allah, limpahkanlah selawat dan salam kepadanya."},
+{t:"Selawat",a:"اَللّٰهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ، يَا رَبِّ صَلِّ عَلَيْهِ وَسَلِّمْ",i:"Ya Allah, limpahkanlah selawat kepada junjungan kami Nabi Muhammad. Wahai Tuhanku, limpahkanlah selawat dan salam kepadanya."}
+]},
+{h:"Tasbih",items:[
+{t:"Tasbih (33x)",a:"سُبْحَانَ اللهِ وَبِحَمْدِهِ، سُبْحَانَ اللهِ الْعَظِيْمِ",i:"Mahasuci Allah dan segala puji bagi-Nya. Mahasuci Allah Yang Mahaagung."},
+{t:"Selawat (2x)",a:"اَللّٰهُمَّ صَلِّ عَلَى حَبِيْبِكَ سَيِّدِنَا مُحَمَّدٍ وَعَلَى اٰلِهِ وَصَحْبِهِ وَسَلِّمْ",i:"Ya Allah, limpahkanlah selawat dan salam kepada kekasih-Mu, junjungan kami Nabi Muhammad, beserta keluarga dan sahabatnya."},
+{t:"Selawat Penutup",a:"اَللّٰهُمَّ صَلِّ عَلَى حَبِيْبِكَ سَيِّدِنَا مُحَمَّدٍ وَعَلَى اٰلِهِ وَصَحْبِهِ وَبَارِكْ وَسَلِّمْ أَجْمَعِيْنَ",i:"Ya Allah, limpahkanlah selawat kepada kekasih-Mu, junjungan kami Nabi Muhammad, beserta keluarga dan sahabatnya, serta limpahkanlah keberkahan dan salam kepada mereka semua."}
+]}
+];
+
+const DOA = [
+{t:"Doa Pembuka",a:"أَعُوْذُ بِاللهِ مِنَ الشَّيْطَانِ الرَّجِيْمِ، بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ، اَلْحَمْدُ لِلّٰهِ رَبِّ الْعَالَمِيْنَ، حَمْدَ الشَّاكِرِيْنَ حَمْدَ النَّاعِمِيْنَ، حَمْدًا يُوَافِيْ نِعَمَهُ وَيُكَافِئُ مَزِيْدَهُ، يَا رَبَّنَا لَكَ الْحَمْدُ كَمَا يَنْبَغِيْ لِجَلَالِ وَجْهِكَ وَعَظِيْمِ سُلْطَانِكَ، اَللّٰهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى اٰلِ سَيِّدِنَا مُحَمَّدٍ",i:"Aku berlindung kepada Allah dari setan yang terkutuk. Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang. Segala puji bagi Allah, Tuhan semesta alam, dengan pujian orang-orang yang bersyukur dan orang-orang yang diberi nikmat, pujian yang sepadan dengan nikmat-Nya dan mencukupi tambahan karunia-Nya. Wahai Tuhan kami, bagi-Mu segala puji sebagaimana layak bagi keagungan wajah-Mu dan kebesaran kekuasaan-Mu. Ya Allah, limpahkanlah selawat kepada junjungan kami Nabi Muhammad dan keluarga junjungan kami Nabi Muhammad."},
+{t:"Doa Penyampaian Pahala",a:"اَللّٰهُمَّ تَقَبَّلْ وَأَوْصِلْ ثَوَابَ مَا قَرَأْنَاهُ مِنَ الْقُرْاٰنِ الْعَظِيْمِ، وَمَا هَلَّلْنَا وَمَا سَبَّحْنَا وَمَا اسْتَغْفَرْنَا وَمَا صَلَّيْنَا عَلَى سَيِّدِنَا مُحَمَّدٍ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ، هَدِيَّةً وَاصِلَةً وَرَحْمَةً نَازِلَةً وَبَرَكَةً شَامِلَةً، إِلَى حَضْرَةِ حَبِيْبِنَا وَشَفِيْعِنَا وَقُرَّةِ أَعْيُنِنَا سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ، وَإِلَى جَمِيْعِ إِخْوَانِهِ مِنَ الْأَنْبِيَاءِ وَالْمُرْسَلِيْنَ وَالْأَوْلِيَاءِ وَالشُّهَدَاءِ وَالصَّالِحِيْنَ وَالصَّحَابَةِ وَالتَّابِعِيْنَ وَالْعُلَمَاءِ الْعَامِلِيْنَ وَالْمُصَنِّفِيْنَ الْمُخْلِصِيْنَ وَجَمِيْعِ الْمُجَاهِدِيْنَ فِيْ سَبِيْلِ اللهِ رَبِّ الْعَالَمِيْنَ وَالْمَلَائِكَةِ الْمُقَرَّبِيْنَ، خُصُوْصًا إِلَى سَيِّدِنَا الشَّيْخِ عَبْدِ الْقَادِرِ الْجِيْلَانِيِّ، ثُمَّ إِلَى أَرْوَاحِ جَمِيْعِ أَهْلِ الْقُبُوْرِ مِنَ الْمُسْلِمِيْنَ وَالْمُسْلِمَاتِ وَالْمُؤْمِنِيْنَ وَالْمُؤْمِنَاتِ مِنْ مَشَارِقِ الْأَرْضِ وَمَغَارِبِهَا بَرِّهَا وَبَحْرِهَا، خُصُوْصًا إِلَى اٰبَائِنَا وَأُمَّهَاتِنَا وَأَجْدَادِنَا وَجَدَّاتِنَا، وَنَخُصُّ خُصُوْصًا إِلَى مَنِ اجْتَمَعْنَا هٰهُنَا بِسَبَبِهِ وَلِأَجْلِهِ",i:"Ya Allah, terimalah dan sampaikanlah pahala bacaan Al-Qur'an yang agung, tahlil, tasbih, istigfar, dan selawat kami kepada junjungan kami Nabi Muhammad ṣallallāhu ‘alaihi wa sallam, sebagai hadiah yang sampai, rahmat yang turun, dan keberkahan yang merata, kepada kekasih kami, pemberi syafaat kami, penyejuk mata kami, junjungan dan pemimpin kami Nabi Muhammad ṣallallāhu ‘alaihi wa sallam. Juga kepada seluruh saudara beliau dari kalangan para nabi dan rasul, para wali, para syuhada, orang-orang saleh, para sahabat, para tabiin, para ulama yang mengamalkan ilmunya, para penulis kitab yang ikhlas, semua pejuang di jalan Allah, Tuhan semesta alam, dan para malaikat yang didekatkan kepada Allah, khususnya kepada Syekh Abdul Qadir al-Jilani. Kemudian kepada arwah seluruh ahli kubur dari kalangan muslimin dan muslimat, mukminin dan mukminat, dari timur hingga barat bumi, di darat maupun di laut, khususnya kepada bapak-bapak, ibu-ibu, kakek-kakek, dan nenek-nenek kami, dan terutama kepada orang yang menjadi sebab dan tujuan kami berkumpul di sini."},
+{t:"Doa untuk Ahli Kubur",a:"اَللّٰهُمَّ اغْفِرْ لَهُمْ وَارْحَمْهُمْ وَعَافِهِمْ وَاعْفُ عَنْهُمْ، اَللّٰهُمَّ أَنْزِلِ الرَّحْمَةَ وَالْمَغْفِرَةَ عَلَى أَهْلِ الْقُبُوْرِ مِنْ أَهْلِ لَا إِلٰهَ إِلَّا اللهُ مُحَمَّدٌ رَسُوْلُ اللهِ",i:"Ya Allah, ampunilah mereka, rahmatilah mereka, selamatkanlah mereka, dan maafkanlah mereka. Ya Allah, turunkanlah rahmat dan ampunan kepada para ahli kubur yang bersaksi bahwa tidak ada tuhan selain Allah dan Muhammad adalah utusan Allah."},
+{t:"Doa Penutup",a:"رَبَّنَا أَرِنَا الْحَقَّ حَقًّا وَارْزُقْنَا اتِّبَاعَهُ، وَأَرِنَا الْبَاطِلَ بَاطِلًا وَارْزُقْنَا اجْتِنَابَهُ، رَبَّنَا اٰتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْاٰخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ، سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُوْنَ، وَسَلَامٌ عَلَى الْمُرْسَلِيْنَ، وَالْحَمْدُ لِلّٰهِ رَبِّ الْعَالَمِيْنَ، اَلْفَاتِحَةُ",i:"Wahai Tuhan kami, tunjukkanlah kepada kami bahwa yang benar itu benar dan anugerahilah kami kemampuan untuk mengikutinya, serta tunjukkanlah kepada kami bahwa yang batil itu batil dan anugerahilah kami kemampuan untuk menjauhinya. Ya Tuhan kami, berilah kami kebaikan di dunia dan kebaikan di akhirat serta lindungilah kami dari azab neraka. Mahasuci Tuhanmu, Tuhan pemilik kemuliaan dari apa yang mereka sifatkan. Selamat sejahtera bagi para rasul. Segala puji bagi Allah, Tuhan semesta alam. (Kemudian membaca) Al-Fatihah."}
+];
+
+/* ===== RENDER MULTITAB ===== */
+(function () {
+    const panel = document.getElementById('reader-panel');
+    const esc = t => String(t).replace(/&/g,'&amp;').replace(/</g,'&lt;');
+    const nm = t => esc(t).replace(/\{\{NAMA\}\}/g, esc(invitationState.deceasedName));
+    const card = (it) => `<div class="rd-card">${it.t ? `<span class="rd-label">${esc(it.t)}</span>` : ''}
+        <p lang="ar" dir="rtl" class="arabic-text rd-ar">${nm(it.bsm ? BSM + ' ' + it.a : it.a)}</p>
+        <p lang="id" class="rd-id">${nm(it.bsm ? BSM_ID + ' ' + it.i : it.i)}</p>
+        ${it.note ? `<p class="rd-note">${esc(it.note)}</p>` : ''}</div>`;
+    const views = {
+        tawasul: () => `<h3 class="rd-group">Tawasul — Hadiah Al-Fatihah</h3>` + TAWASUL.map(card).join(''),
+        yasin: () => `<h3 class="rd-group">Surat Yasin (83 Ayat)</h3><p lang="ar" dir="rtl" class="arabic-text rd-bsm text-2xl">${BSM}</p>` +
+            YASIN.map((v, i) => `<div class="rd-card"><span class="rd-num">${i + 1}</span>
+            <p lang="ar" dir="rtl" class="arabic-text rd-ar">${esc(v[0])}</p><p lang="id" class="rd-id">${esc(v[1])}</p></div>`).join(''),
+        dzikir: () => DZIKIR.map(g => `<h3 class="rd-group">${esc(g.h)}</h3>` + g.items.map(card).join('') + (g.src ? `<p class="rd-src">${esc(g.src)}</p>` : '')).join(''),
+        doa: () => `<h3 class="rd-group">Doa Tahlil</h3>` + DOA.map(card).join('')
+    };
+    function show(id) {
+        document.querySelectorAll('.reader-tab').forEach(b => {
+            const on = b.dataset.tab === id;
+            b.classList.toggle('active', on);
+            b.setAttribute('aria-selected', on);
+        });
+        panel.innerHTML = views[id]();
+        panel.setAttribute('aria-labelledby', 'rtab-' + id);
+        panel.scrollTop = 0;
+    }
+    document.querySelectorAll('.reader-tab').forEach(b => b.addEventListener('click', () => show(b.dataset.tab)));
+    show('tawasul');
+})();
+</script>
+</body>
+</html>
